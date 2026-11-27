@@ -1,0 +1,27 @@
+name: Website checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate JSON manifests
+        run: |
+          node -e "for (const p of ['knowledge-hub/manifest.json','knowledge-library/manifest.json']) JSON.parse(require('fs').readFileSync(p,'utf8'))"
+      - name: Check required pages
+        run: |
+          test -s index.html
+          test -s knowledge-hub/index.html
+          test -s knowledge-library/index.html
+          test -s knowledge-hub/engineering/index.html
+      - name: Check no obvious secrets
+        run: |
+          ! grep -RniE '(secret|token|api[_-]?key)[[:space:]]*[:=][[:space:]]*["\x27][A-Za-z0-9_./+-]{20,}' --include='*.js' --include='*.html' --include='*.json' .
