@@ -1,19 +1,12 @@
 # VATHEN Knowledge Websites
 
-V2.3.2 — public navigation shell for the VATHEN Agent Knowledge Hub and Knowledge Library.
+先知知识与 Agent 工作台静态入口。Notion 是知识正文与任务数据权威来源。前端不保存私密凭据。
 
-## Sites
-- `/` — portal
-- `/knowledge-hub/` — Agent Knowledge Hub and engineering overview
-- `/knowledge-library/` — ten-domain knowledge library navigation
+## Pages
+- `/`
+- `/knowledge-hub/`
+- `/knowledge-library/`
+- `/knowledge-hub/engineering/`
 
-## Architecture
-The static GitHub Pages site is a navigation and read-only status surface. Notion remains the source of truth for knowledge pages and task records. No Notion credentials or private data belong in this repository.
-
-The `task-bridge/` directory is a separate FastAPI scaffold. It is not deployed by GitHub Pages and must be hosted privately with authentication and server-side secrets before connecting to Notion.
-
-## Deploy
-GitHub Actions deploys the repository root to GitHub Pages on pushes to `main`. Enable Pages with **GitHub Actions** as the build and deployment source if it is not already enabled.
-
-## Safety
-Never place API tokens, `.env` files, personal information, or private Notion exports in this public repository.
+## Security
+Notion token and API keys must remain server-side. The dashboard is a static status view until a protected Task Bridge service is deployed.

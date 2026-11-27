@@ -1,9 +1,0 @@
-{
-  "product": "VATHEN Knowledge Websites",
-  "version": "2.3.2",
-  "language": "zh-CN",
-  "hosting": "GitHub Pages",
-  "source_of_truth": "Notion",
-  "routes": ["/", "/knowledge-hub/", "/knowledge-library/", "/knowledge-hub/engineering/"],
-  "notes": "Static navigation only; task bridge is a separate private service scaffold."
-}
