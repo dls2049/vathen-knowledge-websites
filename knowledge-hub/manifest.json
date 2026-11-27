@@ -1,0 +1,7 @@
+{
+  "name": "VATHEN Agent Knowledge Hub",
+  "version": "2.3.2",
+  "routes": ["/knowledge-hub/", "/knowledge-hub/engineering/"],
+  "modules": ["knowledge-library", "engineering-overview", "notion-task-source"],
+  "task_data": "Not connected in static build"
+}
