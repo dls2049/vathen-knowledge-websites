@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0.0",
+  "schema_version": "2.1.0",
   "name": "VATHEN Structured Knowledge System Agent Index",
   "language": "zh-CN",
   "generated_at": "2026-11-28",
@@ -9,8 +9,9 @@
   "canonical_entry": "https://dls2049.github.io/vathen-knowledge-websites/",
   "source_of_truth": "Notion",
   "sync_mode": "static_snapshot",
-  "sync_note": "Versioned static snapshot: 59 related Notion pages and 51 rows from two linked task databases. This is curated into a structured architecture but is not live-synchronized with Notion.",
+  "sync_note": "Curated static snapshot: 59 related Notion pages and 51 rows from two linked task databases. Each of 10 formal modules has a synthesized overview, operating model, dependencies, canonical documents and related references. Not live-synchronized with Notion.",
   "reading_protocol": [
+    "Read each module's curated knowledge_summary and knowledge_model before opening its source documents.",
     "Load data/knowledge-architecture.json before retrieving page content.",
     "Choose the relevant section and follow its reading sequence.",
     "Keep canonical standards separate from task rows: retrieve execution records only for current task state and delivery evidence.",
@@ -116,7 +117,8 @@
     "Read strategy before product decisions; editorial method before content production; canonical data model before source ingestion; architecture and ADR before implementation; permission model before agent automation.",
     "Prefer core documents over related references; preserve status, version, source URL, and evidence.",
     "Proposals, pending validation, and historical records must not be represented as approved decisions.",
-    "Task database rows are execution records, not canonical policy documents."
+    "Task database rows are execution records, not canonical policy documents.",
+    "Every module has a curated synthesis, operating model, upstream/downstream dependencies, and boundary notes; do not rely on raw page titles alone."
   ],
   "retrieval_rules": {
     "strategy": "Strategic direction, mission, target audience, competitive positioning and business assumptions.",
