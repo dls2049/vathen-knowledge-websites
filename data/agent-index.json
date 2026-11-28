@@ -4,12 +4,12 @@
   "language": "zh-CN",
   "generated_at": "2026-11-28",
   "source": "Notion",
-  "source_scope": "50 pages discovered through Notion search for 先知, plus 51 rows from the two linked development task databases.",
-  "total_documents": 101,
+  "source_scope": "58 related Notion pages discoverable within the 先知资料库 hierarchy plus 51 rows from the two linked development task databases.",
+  "total_documents": 109,
   "canonical_entry": "https://dls2049.github.io/vathen-knowledge-websites/",
   "source_of_truth": "Notion",
   "sync_mode": "static_snapshot",
-  "sync_note": "This website contains a versioned static snapshot of the 50 discoverable Notion pages and 51 rows from two Notion task databases. It does not currently synchronize live with Notion.",
+  "sync_note": "This website contains a versioned static snapshot of 58 discoverable Notion pages and 51 rows from two Notion task databases. It does not currently synchronize live with Notion.",
   "reading_protocol": [
     "Read the root library document first.",
     "Use the category mapping below to select relevant knowledge.",
@@ -79,7 +79,8 @@
     "notion-07.json",
     "notion-08.json",
     "notion-09.json",
-    "notion-10.json"
+    "notion-10.json",
+    "notion-11.json"
   ],
   "document_schema": {
     "id": "Notion page UUID",
@@ -89,7 +90,7 @@
     "edited_at": "ISO timestamp or null",
     "truncated": "Boolean"
   },
-  "total_pages": 50,
+  "total_pages": 58,
   "total_task_records": 51,
   "database_sources": [
     {
