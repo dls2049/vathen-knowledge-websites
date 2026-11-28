@@ -18,6 +18,14 @@
 - Agent index: `/data/agent-index.json`
 - Delivery workspace: `/knowledge-hub/engineering/`
 
+## Frozen engineering specifications
+
+- [Platform engineering baseline V1.0](knowledge-hub/engineering/frozen/00-platform-engineering-freeze-v1.0.md)
+- [DAC product and engineering freeze V2.0](knowledge-hub/engineering/frozen/01-dac-product-engineering-freeze-v2.0.md)
+- [DAC data dictionary and API contract V2.0](knowledge-hub/engineering/frozen/02-dac-data-dictionary-api-contract-v2.0.md)
+- [Public website product and engineering freeze V3.0](knowledge-hub/engineering/frozen/03-public-website-product-engineering-freeze-v3.0.md)
+- [Agent task status and QA governance V1.0](knowledge-hub/engineering/frozen/04-task-status-agent-governance-v1.0.md)
+
 ## Source of truth and limitations
 
 - Notion remains the source of truth for source documents and current task status.
