@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0.0",
+  "name": "VATHEN Knowledge Base Agent Index",
+  "language": "zh-CN",
+  "generated_at": "2026-11-28",
+  "source": "Notion",
+  "source_scope": "50 pages discovered through Notion search for 先知, including the root library page, 10 category pages and related strategy/product/research/engineering/agent documents.",
+  "total_documents": 50,
+  "canonical_entry": "https://dls2049.github.io/vathen-knowledge-websites/",
+  "source_of_truth": "Notion",
+  "sync_mode": "static_snapshot",
+  "sync_note": "This website contains a versioned static snapshot. It does not currently synchronize live with Notion. Refresh the data/notion-*.json chunks from Notion to update it.",
+  "reading_protocol": [
+    "Read the root library document first.",
+    "Use the category mapping below to select relevant knowledge.",
+    "Prefer the newest confirmed or execution-baseline document when versions conflict.",
+    "Do not treat discussion proposals or pending validation as approved decisions.",
+    "Preserve each document's Notion URL and edited_at metadata when citing."
+  ],
+  "categories": [
+    {
+      "id": "brand",
+      "name": "品牌与组织",
+      "root_page_id": "41ef15aa-bd2c-81d8-9946-fb6b312de763"
+    },
+    {
+      "id": "business",
+      "name": "商业与市场",
+      "root_page_id": "41ef15aa-bd2c-8178-93b5-fdd4f15d8c54"
+    },
+    {
+      "id": "product",
+      "name": "产品体系",
+      "root_page_id": "41ef15aa-bd2c-81fd-848a-e1934b1458df"
+    },
+    {
+      "id": "design",
+      "name": "设计与视觉",
+      "root_page_id": "41ef15aa-bd2c-81ed-9ee0-e05fad59fbb5"
+    },
+    {
+      "id": "research",
+      "name": "研究与内容规范",
+      "root_page_id": "41ef15aa-bd2c-8162-8a5b-d95426694380"
+    },
+    {
+      "id": "data",
+      "name": "数据与情报",
+      "root_page_id": "41ef15aa-bd2c-8119-8ed3-d91be6f57841"
+    },
+    {
+      "id": "engineering",
+      "name": "开发与技术架构",
+      "root_page_id": "41ef15aa-bd2c-815b-af3f-caaff1eedf48"
+    },
+    {
+      "id": "agents",
+      "name": "Agent 与自动化",
+      "root_page_id": "41ef15aa-bd2c-8130-b312-df08180aee33"
+    },
+    {
+      "id": "growth",
+      "name": "运营与增长",
+      "root_page_id": "41ef15aa-bd2c-818f-9278-e4c11cee3248"
+    },
+    {
+      "id": "decisions",
+      "name": "决策、路线图与变更记录",
+      "root_page_id": "41ef15aa-bd2c-816d-9cab-cd875cd92602"
+    }
+  ],
+  "data_files": [
+    "notion-01.json",
+    "notion-02.json",
+    "notion-03.json",
+    "notion-04.json",
+    "notion-05.json",
+    "notion-06.json",
+    "notion-07.json",
+    "notion-08.json",
+    "notion-09.json"
+  ],
+  "document_schema": {
+    "id": "Notion page UUID",
+    "title": "Page title",
+    "url": "Original Notion URL",
+    "markdown": "Notion-flavored Markdown content",
+    "edited_at": "ISO timestamp or null",
+    "truncated": "Boolean"
+  }
+}

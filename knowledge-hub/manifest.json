@@ -1,22 +1,9 @@
 {
   "name": "VATHEN Agent Knowledge Hub",
-  "version": "1.0.0",
-  "modules": [
-    {
-      "id": "library",
-      "path": "../knowledge-library/"
-    },
-    {
-      "id": "engineering",
-      "path": "engineering/"
-    },
-    {
-      "id": "notion",
-      "url": "https://www.notion.so/420f15aabd2c8195930be3ca4025cdcd"
-    }
-  ],
-  "automation": {
-    "liveSync": false,
-    "taskBridge": "requires-secure-server-deployment"
-  }
+  "version": "2.0.0",
+  "entry": "../",
+  "sourceOfTruth": "Notion",
+  "machineReadableIndex": "../data/agent-index.json",
+  "liveSync": false,
+  "taskBridge": "requires-secure-server-deployment"
 }

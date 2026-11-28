@@ -1,7 +1,7 @@
 {
   "name": "VATHEN Knowledge Library",
-  "version": "1.0.0",
-  "updated": "2026-11-27",
+  "version": "2.0.0",
+  "updated": "2026-11-28",
   "categories": [
     "品牌与组织",
     "商业与市场",
@@ -12,7 +12,11 @@
     "开发与技术架构",
     "Agent 与自动化",
     "运营与增长",
-    "决策、路线图与变更"
+    "决策、路线图与变更记录"
   ],
-  "sourceOfTruth": "Notion"
+  "sourceOfTruth": "Notion",
+  "websiteMode": "single-page knowledge workspace",
+  "documents": 50,
+  "liveSync": false,
+  "dataIndex": "../data/agent-index.json"
 }
