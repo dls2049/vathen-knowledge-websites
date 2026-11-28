@@ -1,6 +1,6 @@
 {
-  "schema_version": "2.1.0",
-  "name": "VATHEN Structured Knowledge System Agent Index",
+  "schema_version": "3.0.0",
+  "name": "VATHEN Knowledge Operating System Agent Index",
   "language": "zh-CN",
   "generated_at": "2026-11-28",
   "source": "Notion",
@@ -9,70 +9,61 @@
   "canonical_entry": "https://dls2049.github.io/vathen-knowledge-websites/",
   "source_of_truth": "Notion",
   "sync_mode": "static_snapshot",
-  "sync_note": "Curated static snapshot: 59 related Notion pages and 51 rows from two linked task databases. Each of 10 formal modules has a synthesized overview, operating model, dependencies, canonical documents and related references. Not live-synchronized with Notion.",
+  "sync_note": "Curated static snapshot: 59 related Notion pages and 51 rows from two linked task databases. Knowledge is reorganized into strategic direction, product capabilities, operations/delivery, and archive layers. Not live-synchronized with Notion.",
   "reading_protocol": [
-    "Read each module's curated knowledge_summary and knowledge_model before opening its source documents.",
-    "Load data/knowledge-architecture.json before retrieving page content.",
-    "Choose the relevant section and follow its reading sequence.",
-    "Keep canonical standards separate from task rows: retrieve execution records only for current task state and delivery evidence.",
-    "Read role=core documents first; use role=related for supporting detail; role=task for execution state; role=archive for historical traceability.",
-    "Prefer the latest confirmed or execution-baseline document when versions conflict; if status is proposed or pending review, do not treat it as approved.",
-    "Preserve the Notion source URL and document ID when citing. Never infer approval from recency alone."
+    "Load data/knowledge-architecture.json first; it is the canonical taxonomy and navigation map.",
+    "Read the relevant module's knowledge_summary, knowledge_model, boundary, upstream and downstream fields before opening source pages.",
+    "Follow the role-based reading_paths in the architecture for strategic, product, research, or engineering work.",
+    "Treat role=core as authoritative reference candidates, not automatically approved decisions; always inspect status.",
+    "Treat role=task as execution records and use Notion as the current status source; this website is a static snapshot.",
+    "Treat role=related as supporting evidence and role=archive as historical traceability only.",
+    "Preserve Notion source URLs and IDs. Do not infer approval, deployment, or real-time operation from inclusion in this index."
   ],
   "categories": [
     {
-      "id": "brand",
-      "name": "品牌与组织",
-      "root_page_id": "41ef15aa-bd2c-81d8-9946-fb6b312de763"
+      "id": "strategy",
+      "name": "战略与商业",
+      "document_count": 7
     },
     {
-      "id": "business",
-      "name": "商业与市场",
-      "root_page_id": "41ef15aa-bd2c-8178-93b5-fdd4f15d8c54"
+      "id": "brand",
+      "name": "品牌与体验",
+      "document_count": 3
     },
     {
       "id": "product",
-      "name": "产品体系",
-      "root_page_id": "41ef15aa-bd2c-81fd-848a-e1934b1458df"
-    },
-    {
-      "id": "design",
-      "name": "设计与视觉",
-      "root_page_id": "41ef15aa-bd2c-81ed-9ee0-e05fad59fbb5"
+      "name": "产品与体验",
+      "document_count": 6
     },
     {
       "id": "research",
-      "name": "研究与内容规范",
-      "root_page_id": "41ef15aa-bd2c-8162-8a5b-d95426694380"
+      "name": "研究与内容",
+      "document_count": 8
     },
     {
       "id": "data",
       "name": "数据与情报",
-      "root_page_id": "41ef15aa-bd2c-8119-8ed3-d91be6f57841"
+      "document_count": 8
     },
     {
-      "id": "engineering",
-      "name": "开发与技术架构",
-      "root_page_id": "41ef15aa-bd2c-815b-af3f-caaff1eedf48"
+      "id": "technology",
+      "name": "技术与智能体",
+      "document_count": 12
     },
     {
-      "id": "agents",
-      "name": "Agent 与自动化",
-      "root_page_id": "41ef15aa-bd2c-8130-b312-df08180aee33"
-    },
-    {
-      "id": "growth",
-      "name": "运营与增长",
-      "root_page_id": "41ef15aa-bd2c-818f-9278-e4c11cee3248"
-    },
-    {
-      "id": "decisions",
-      "name": "决策、路线图与变更记录",
-      "root_page_id": "41ef15aa-bd2c-816d-9cab-cd875cd92602"
+      "id": "governance",
+      "name": "运营与治理",
+      "document_count": 8
     },
     {
       "id": "execution",
-      "name": "项目执行与交付"
+      "name": "项目与交付",
+      "document_count": 56
+    },
+    {
+      "id": "archive",
+      "name": "原始资料与历史档案",
+      "document_count": 2
     }
   ],
   "data_files": [
@@ -113,24 +104,348 @@
   ],
   "architecture_file": "data/knowledge-architecture.json",
   "organization_principles": [
-    "The architecture is the primary navigation and retrieval taxonomy; raw Notion page order is not authoritative.",
-    "Read strategy before product decisions; editorial method before content production; canonical data model before source ingestion; architecture and ADR before implementation; permission model before agent automation.",
-    "Prefer core documents over related references; preserve status, version, source URL, and evidence.",
-    "Proposals, pending validation, and historical records must not be represented as approved decisions.",
-    "Task database rows are execution records, not canonical policy documents.",
-    "Every module has a curated synthesis, operating model, upstream/downstream dependencies, and boundary notes; do not rely on raw page titles alone."
+    "按业务逻辑而不是原始页面来源组织知识；战略、能力、运营和档案分层。",
+    "每个重要主题只设置一个正式入口，相关文档作为支撑材料，避免多处重复维护。",
+    "将长期有效的标准知识、正在推进的项目任务、研究素材和历史档案分开呈现。",
+    "明确区分已确认基线、建议方案、待验证假设、实施状态和历史记录。",
+    "每个模块都说明使命、核心结论、运行模型、上下游依赖、权威资料和适用边界。",
+    "Notion 保持源数据与任务状态事实来源；网站是静态快照，除非部署同步服务，不宣称实时更新。"
   ],
   "retrieval_rules": {
-    "strategy": "Strategic direction, mission, target audience, competitive positioning and business assumptions.",
-    "brand": "Brand narrative, identity, visual standards and design assets.",
-    "business": "Paid audience, value proposition, membership, pricing and growth economics.",
-    "product": "Product portfolio, website blueprint, PRDs, user journeys and MVP scope.",
-    "research": "Research methods, evidence standards, editorial voice, writing pipeline and quality gates.",
-    "data": "DAC, sources, entity intelligence, canonical data models, evidence and dashboards.",
-    "engineering": "Architecture decisions, delivery plans, implementation standards, CI/CD and project tasks.",
-    "agents": "Agent roles, prompts, knowledge binding, tool permissions, autonomy and evaluation.",
-    "governance": "Versioning, source-of-truth, audits, missing materials, decision records and roadmap.",
-    "archive": "Original Notion pages, historical snapshots and traceability-only records.",
-    "execution": "Task lifecycle, developer/Agent handoff, Sprint execution, delivery evidence, acceptance, progress and project task records."
-  }
+    "strategy": "Mission, target audience, value proposition, competitive positioning, business model and market assumptions.",
+    "brand": "Brand narrative, voice, visual identity, design standards and experience consistency.",
+    "product": "Product portfolio, user journeys, PRDs, information architecture, MVP scope and permission boundaries.",
+    "research": "Research questions, evidence standards, source verification, editorial voice, writing workflow and quality gates.",
+    "data": "DAC, source adapters, data licensing, canonical models, evidence, entities, events, relationships and intelligence dashboards.",
+    "technology": "System architecture, ADRs, engineering standards, Agent Runtime, tool permissions, evaluation, monitoring and automation.",
+    "governance": "Knowledge lifecycle, source of truth, versioning, decision records, audits, roadmap and operational cadence.",
+    "execution": "Project tasks, Backlog, Sprint delivery, Agent handoff, QA, acceptance evidence and task closure.",
+    "archive": "Original Notion pages, historical snapshots, old dashboards and traceability-only records."
+  },
+  "modules": [
+    {
+      "id": "strategy",
+      "title": "战略与商业",
+      "group": "方向与定位",
+      "purpose": "定义 VATHEN 为谁创造什么价值、研究哪些问题、如何建立可持续的商业模式，以及哪些战略假设需要被市场验证。",
+      "document_count": 7,
+      "core_count": 6,
+      "reading": [
+        "VATHEN 品牌故事与商业规划简报",
+        "目标付费用户与内容选题战略",
+        "竞争格局与标杆研究",
+        "商业模式与会员产品档案"
+      ],
+      "upstream": [],
+      "downstream": [
+        "品牌与体验",
+        "产品与体验",
+        "研究与内容"
+      ],
+      "boundary": "提案、假设和未完成的技术/产品能力必须保留其状态，不得因被收录而视为已批准或已上线。",
+      "document_ids": [
+        "420f15aa-bd2c-818a-a4d7-f570d1bc6325",
+        "41ef15aa-bd2c-810e-9666-e58a5962b33d",
+        "41ef15aa-bd2c-81ab-a0d7-d140f0cd39ee",
+        "41ff15aa-bd2c-812d-b334-c4f22781236f",
+        "41ef15aa-bd2c-818f-9278-e4c11cee3248",
+        "41ef15aa-bd2c-816a-af46-cb6a486c8348",
+        "41ef15aa-bd2c-8178-93b5-fdd4f15d8c54"
+      ]
+    },
+    {
+      "id": "brand",
+      "title": "品牌与体验",
+      "group": "方向与定位",
+      "purpose": "统一品牌定位、叙事、语言人格、视觉识别和设计资产，让所有研究内容、产品界面与对外沟通形成一致的品牌体验。",
+      "document_count": 3,
+      "core_count": 2,
+      "reading": [
+        "品牌与组织基线",
+        "品牌故事与商业规划简报",
+        "品牌视觉系统与设计资产档案"
+      ],
+      "upstream": [
+        "战略与商业"
+      ],
+      "downstream": [
+        "产品与体验",
+        "研究与内容"
+      ],
+      "boundary": "提案、假设和未完成的技术/产品能力必须保留其状态，不得因被收录而视为已批准或已上线。",
+      "document_ids": [
+        "41ef15aa-bd2c-81d8-9946-fb6b312de763",
+        "41ef15aa-bd2c-817b-ad80-d9c5264e983d",
+        "41ef15aa-bd2c-81ed-9ee0-e05fad59fbb5"
+      ]
+    },
+    {
+      "id": "product",
+      "title": "产品与体验",
+      "group": "产品与能力",
+      "purpose": "把战略和用户需求转化为清晰的产品组合、核心体验、功能边界和交付规格，连接公开产品与内部研究工作台。",
+      "document_count": 6,
+      "core_count": 5,
+      "reading": [
+        "官网产品与工程总蓝图",
+        "实体情报与产业知识网络 PRD",
+        "Research Radar 与 Intelligence Search 规划",
+        "研究内容生产流水线"
+      ],
+      "upstream": [
+        "战略与商业",
+        "品牌与体验"
+      ],
+      "downstream": [
+        "研究与内容",
+        "数据与情报",
+        "技术与智能体"
+      ],
+      "boundary": "提案、假设和未完成的技术/产品能力必须保留其状态，不得因被收录而视为已批准或已上线。",
+      "document_ids": [
+        "420f15aa-bd2c-8193-b3e9-c8c594179d4d",
+        "420f15aa-bd2c-81cb-b0a1-ffcd8afb0ced",
+        "41ef15aa-bd2c-813a-8580-de87d570d2bf",
+        "41ef15aa-bd2c-8110-9343-dc231504ea91",
+        "41ef15aa-bd2c-81b2-95ad-c8e8efbcea2e",
+        "41ef15aa-bd2c-81fd-848a-e1934b1458df"
+      ]
+    },
+    {
+      "id": "research",
+      "title": "研究与内容",
+      "group": "产品与能力",
+      "purpose": "定义研究问题、证据采集、事实核验、分析判断、写作生产和质量验收的完整方法，是 VATHEN 内容可信度与专业价值的核心。",
+      "document_count": 8,
+      "core_count": 6,
+      "reading": [
+        "中文内容语言人格与写作风格指南",
+        "中文深度研究报告写作规范",
+        "研究内容生产工作流与 Agent 职责矩阵",
+        "写作风格评测集与验收规范"
+      ],
+      "upstream": [
+        "战略与商业",
+        "品牌与体验",
+        "产品与体验"
+      ],
+      "downstream": [
+        "数据与情报",
+        "技术与智能体"
+      ],
+      "boundary": "提案、假设和未完成的技术/产品能力必须保留其状态，不得因被收录而视为已批准或已上线。",
+      "document_ids": [
+        "422f15aa-bd2c-8131-8c2b-c7f07167b0af",
+        "41ef15aa-bd2c-81d3-8b03-d97156b767f3",
+        "422f15aa-bd2c-8181-aaf4-e33149e6a0d0",
+        "41ef15aa-bd2c-81b9-b89f-f657a3269692",
+        "41ef15aa-bd2c-81b5-a67b-dd0030fe827d",
+        "41ef15aa-bd2c-81e4-b4a4-c68059a2c5c4",
+        "41ef15aa-bd2c-8162-8a5b-d95426694380",
+        "41ef15aa-bd2c-81a1-a4e2-ea3e528c6df2"
+      ]
+    },
+    {
+      "id": "data",
+      "title": "数据与情报",
+      "group": "产品与能力",
+      "purpose": "建设 DAC 数据资产中心，统一信息源、采集适配器、证据、实体、事件、关系和情报看板，形成可持续积累的研究数据基础设施。",
+      "document_count": 8,
+      "core_count": 8,
+      "reading": [
+        "DAC 总体架构与数据治理规范",
+        "核心数据模型与字段字典",
+        "Source Adapter 开发规范",
+        "外部开放数据源与许可研究",
+        "全球情报 Dashboard 指标体系"
+      ],
+      "upstream": [
+        "研究与内容",
+        "产品与体验"
+      ],
+      "downstream": [
+        "技术与智能体",
+        "项目与交付"
+      ],
+      "boundary": "提案、假设和未完成的技术/产品能力必须保留其状态，不得因被收录而视为已批准或已上线。",
+      "document_ids": [
+        "420f15aa-bd2c-818a-8eb7-db7decaa62a0",
+        "420f15aa-bd2c-8101-9bf8-f6fd96306008",
+        "421f15aa-bd2c-811d-b495-fda1d589d75e",
+        "420f15aa-bd2c-8110-8817-ff29df9f1a5b",
+        "420f15aa-bd2c-81e2-993b-df1c7f0e66f3",
+        "420f15aa-bd2c-819a-a4a9-ed1d6881723f",
+        "41ef15aa-bd2c-8119-8ed3-d91be6f57841",
+        "41ef15aa-bd2c-813e-a35e-d0d1debb76e4"
+      ]
+    },
+    {
+      "id": "technology",
+      "title": "技术与智能体",
+      "group": "产品与能力",
+      "purpose": "把产品和数据战略转化为安全、可维护、可测试、可审计的工程系统，并定义 Agent Runtime、工具权限和自主执行机制。",
+      "document_count": 12,
+      "core_count": 10,
+      "reading": [
+        "全平台产品与技术总体架构",
+        "DAC Sprint 0 架构决策记录",
+        "官网完整开发手册",
+        "Agent 入库指南与长期自主智能体任务总纲"
+      ],
+      "upstream": [
+        "产品与体验",
+        "数据与情报"
+      ],
+      "downstream": [
+        "项目与交付",
+        "运营与治理"
+      ],
+      "boundary": "提案、假设和未完成的技术/产品能力必须保留其状态，不得因被收录而视为已批准或已上线。",
+      "document_ids": [
+        "420f15aa-bd2c-819b-85bd-d40ffe7322c8",
+        "422f15aa-bd2c-8107-ac76-d4ed9a2ba99b",
+        "420f15aa-bd2c-811e-855d-d311a3cd1d70",
+        "420f15aa-bd2c-8178-a960-d404382f2e9a",
+        "420f15aa-bd2c-81c9-9fa2-e77f0329b00e",
+        "420f15aa-bd2c-81a0-b604-c11ee1c412be",
+        "420f15aa-bd2c-8144-9ec1-c1ba648650b8",
+        "41ef15aa-bd2c-815b-af3f-caaff1eedf48",
+        "422f15aa-bd2c-8103-947f-d01b5e3215a7",
+        "41ef15aa-bd2c-817c-94c4-fb760e40d60c",
+        "41ef15aa-bd2c-81e0-9c14-e41df6c8e7bc",
+        "41ef15aa-bd2c-8130-b312-df08180aee33"
+      ]
+    },
+    {
+      "id": "governance",
+      "title": "运营与治理",
+      "group": "运营与治理",
+      "purpose": "管理知识生命周期、版本、决策、运营节奏、风险与长期路线图，确保 VATHEN 的知识资产和组织系统持续可信、可维护。",
+      "document_count": 8,
+      "core_count": 8,
+      "reading": [
+        "资料库总索引与版本治理",
+        "项目全对话归档复核与补充沉淀",
+        "跨平台资料与工程文档缺口审计",
+        "项目待办清单"
+      ],
+      "upstream": [
+        "战略与商业",
+        "技术与智能体"
+      ],
+      "downstream": [
+        "项目与交付"
+      ],
+      "boundary": "提案、假设和未完成的技术/产品能力必须保留其状态，不得因被收录而视为已批准或已上线。",
+      "document_ids": [
+        "41ef15aa-bd2c-817b-b36d-c212e1bf5359",
+        "41ef15aa-bd2c-8144-9df6-c78b59537957",
+        "41ff15aa-bd2c-819d-be2c-c8ad4d836a4d",
+        "41ff15aa-bd2c-817d-ad6f-db813e8dd14c",
+        "424f15aa-bd2c-812c-9d27-dfaf21e280dc",
+        "420f15aa-bd2c-8195-930b-e3ca4025cdcd",
+        "41ef15aa-bd2c-8174-b396-fc796c558044",
+        "41ef15aa-bd2c-8197-b0b7-f231d6a0f7a2"
+      ]
+    },
+    {
+      "id": "execution",
+      "title": "项目与交付",
+      "group": "执行工作台",
+      "purpose": "集中呈现项目任务、Sprint、Backlog、开发进度、跨 Agent 任务协议和交付验收证据。此处管理工作流，不替代各专业模块的知识规范。",
+      "document_count": 56,
+      "core_count": 5,
+      "reading": [
+        "开发项目交付清单与当前状态",
+        "开发进度看板与 Agent 回填规范",
+        "跨 Agent 开发任务读写协议",
+        "DAC Sprint 0 架构冻结与开发准备执行包"
+      ],
+      "upstream": [
+        "技术与智能体",
+        "数据与情报"
+      ],
+      "downstream": [
+        "运营与治理"
+      ],
+      "boundary": "Notion 是任务状态事实来源；当前网站只展示静态快照。Task Bridge、自动验收和自动结项能力必须以实际部署证据为准。",
+      "document_ids": [
+        "424f15aa-bd2c-8189-9e5b-efb6d2a111c9",
+        "424f15aa-bd2c-814c-866e-cd2711b2c337",
+        "41ef15aa-bd2c-81a1-a3aa-fa747acadd20",
+        "424f15aa-bd2c-8102-94bf-e38385ea7f9e",
+        "420f15aa-bd2c-8118-9644-e97996615ade",
+        "424f15aabd2c8196862ae497cd5b126e",
+        "424f15aabd2c81dbb46eed2c5528ab96",
+        "424f15aabd2c814cb9c4ec010bc78ca5",
+        "424f15aabd2c81b1aad3ea45bfc503af",
+        "424f15aabd2c81ac849afdc899ce6533",
+        "424f15aabd2c81d59adbc5f0abe2ab38",
+        "424f15aabd2c81eb9fc9d1ccea671635",
+        "424f15aabd2c81ec9655ea547f4b4752",
+        "424f15aabd2c81a98820fbc6b269b78c",
+        "424f15aabd2c81649421d41f78a025e8",
+        "424f15aabd2c813994c4f873b71885cb",
+        "424f15aabd2c812aa307e703e58cc237",
+        "424f15aabd2c81d1bf66c72354e0548a",
+        "424f15aabd2c810696aee5882e3e65fb",
+        "424f15aabd2c81f0956ef6fc76eb7bda",
+        "424f15aabd2c81629e32d02f20ff6419",
+        "424f15aabd2c811c80d9f42a1fe14662",
+        "424f15aabd2c81c68827ec9d129ae593",
+        "424f15aabd2c81fcae01d1e449e29971",
+        "424f15aabd2c8107a53fcd9c35860780",
+        "420f15aabd2c81fbb657f1e472ecc647",
+        "420f15aabd2c813db807fef4bd14018e",
+        "420f15aabd2c81fbab92d5bdd02ad69c",
+        "420f15aabd2c8156b247d26ba714faa1",
+        "420f15aabd2c8140a197c99e855bbf64",
+        "420f15aabd2c81d483c6dabacf7df23c",
+        "420f15aabd2c81ce9555d281d3efc512",
+        "420f15aabd2c8158b237f4e48fe0df90",
+        "420f15aabd2c81ca9f87ce9a49aba442",
+        "420f15aabd2c81f092d2e4c19e4e12df",
+        "420f15aabd2c81a0b75fdcb2f4e8af8c",
+        "420f15aabd2c81e39e39e7a8eb5cad38",
+        "420f15aabd2c81c89d70cb2ee06d15a4",
+        "420f15aabd2c817287d8c0d604727a2f",
+        "420f15aabd2c812ebccbf79ef079f6bc",
+        "420f15aabd2c81bd84d3f3b1d37f367b",
+        "420f15aabd2c812fae23cc6e26e1d679",
+        "420f15aabd2c81b08777e62deb2bbdd4",
+        "420f15aabd2c812ab03ee5b90b1daf64",
+        "420f15aabd2c81cbb4d7e531d697a07c",
+        "420f15aabd2c81aba1ffd985413f8c10",
+        "420f15aabd2c81d29be1de4d4bdc3626",
+        "420f15aabd2c811dacede6263798ea0a",
+        "420f15aabd2c815a8ee9f7a9c799c1b7",
+        "420f15aabd2c8174af83ee482ca4edc8",
+        "420f15aabd2c81108ebbd40c782f038a",
+        "420f15aabd2c81d2bcbbee227c5b9177",
+        "420f15aabd2c81f2b1ebccce053670fa",
+        "420f15aabd2c81ef9dd6dc585a92c1a4",
+        "420f15aabd2c8136a13ee48f7b55e437",
+        "420f15aabd2c81709b30c659d1413ba9"
+      ]
+    },
+    {
+      "id": "archive",
+      "title": "原始资料与历史档案",
+      "group": "档案与追溯",
+      "purpose": "保存原始 Notion 页面、历史版本、旧看板和过程性资料，用于来源追溯和审计，不作为日常知识阅读的首选入口。",
+      "document_count": 2,
+      "core_count": 0,
+      "reading": [
+        "先查找当前有效的正式知识入口",
+        "再核对 Notion 原始页面和历史版本"
+      ],
+      "upstream": [],
+      "downstream": [],
+      "boundary": "档案用于追溯，不构成当前规范。",
+      "document_ids": [
+        "424f15aa-bd2c-81f1-a8ce-fe7dcc10a383",
+        "41ef15aa-bd2c-816d-9cab-cd875cd92602"
+      ]
+    }
+  ]
 }
