@@ -105,7 +105,7 @@
       "records": 31
     }
   ],
-  "architecture_file": "knowledge-architecture.json",
+  "architecture_file": "data/knowledge-architecture.json",
   "organization_principles": [
     "The architecture is the primary navigation and retrieval taxonomy; raw Notion page order is not authoritative.",
     "Read strategy before product decisions; editorial method before content production; canonical data model before source ingestion; architecture and ADR before implementation; permission model before agent automation.",

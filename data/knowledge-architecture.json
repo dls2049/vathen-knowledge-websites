@@ -65,20 +65,11 @@
         "竞品资料只作证据与参考，不直接等同于先知决策"
       ],
       "core": [
-        "41ef15aa-bd2c-81ab-a0d7-d140f0cd39ee",
-        "41ff15aa-bd2c-812d-b334-c4f22781236f",
         "420f15aa-bd2c-818a-a4d7-f570d1bc6325",
-        "41ef15aa-bd2c-810e-9666-e58a5962b33d"
+        "41ef15aa-bd2c-810e-9666-e58a5962b33d",
+        "41ef15aa-bd2c-81ab-a0d7-d140f0cd39ee"
       ],
       "documents": [
-        {
-          "id": "41ff15aa-bd2c-812d-b334-c4f22781236f",
-          "title": "🎯 目标付费用户与内容选题战略｜V1.0",
-          "url": "https://app.notion.com/p/41ff15aabd2c812db334c4f22781236f",
-          "role": "core",
-          "status": "讨论结论结构化整理",
-          "edited_at": "2026-11-24T02:51:27.721Z"
-        },
         {
           "id": "420f15aa-bd2c-818a-a4d7-f570d1bc6325",
           "title": "🧭 VATHEN 竞争格局与网站标杆研究｜商业竞品、数据平台与体验借鉴 V1.0",
@@ -104,8 +95,8 @@
           "edited_at": "2026-11-20T23:08:36.810Z"
         }
       ],
-      "count": 4,
-      "core_count": 4
+      "count": 3,
+      "core_count": 3
     },
     {
       "id": "brand",
@@ -124,8 +115,8 @@
         "新设计必须符合品牌识别和可访问性要求"
       ],
       "core": [
-        "41ef15aa-bd2c-817b-ad80-d9c5264e983d",
-        "41ef15aa-bd2c-81d8-9946-fb6b312de763"
+        "41ef15aa-bd2c-81d8-9946-fb6b312de763",
+        "41ef15aa-bd2c-817b-ad80-d9c5264e983d"
       ],
       "documents": [
         {
@@ -175,9 +166,9 @@
         "会员权益必须对应清晰的用户价值"
       ],
       "core": [
-        "41ef15aa-bd2c-816a-af46-cb6a486c8348",
         "41ff15aa-bd2c-812d-b334-c4f22781236f",
-        "41ef15aa-bd2c-818f-9278-e4c11cee3248"
+        "41ef15aa-bd2c-818f-9278-e4c11cee3248",
+        "41ef15aa-bd2c-816a-af46-cb6a486c8348"
       ],
       "documents": [
         {
@@ -235,11 +226,11 @@
         "功能需求必须有用户场景、验收标准和数据依赖"
       ],
       "core": [
-        "420f15aa-bd2c-81cb-b0a1-ffcd8afb0ced",
         "420f15aa-bd2c-8193-b3e9-c8c594179d4d",
-        "41ef15aa-bd2c-81b2-95ad-c8e8efbcea2e",
+        "420f15aa-bd2c-81cb-b0a1-ffcd8afb0ced",
+        "41ef15aa-bd2c-813a-8580-de87d570d2bf",
         "41ef15aa-bd2c-8110-9343-dc231504ea91",
-        "41ef15aa-bd2c-813a-8580-de87d570d2bf"
+        "41ef15aa-bd2c-81b2-95ad-c8e8efbcea2e"
       ],
       "documents": [
         {
@@ -315,10 +306,10 @@
       ],
       "core": [
         "422f15aa-bd2c-8131-8c2b-c7f07167b0af",
-        "41ef15aa-bd2c-81b5-a67b-dd0030fe827d",
-        "422f15aa-bd2c-8181-aaf4-e33149e6a0d0",
         "41ef15aa-bd2c-81d3-8b03-d97156b767f3",
+        "422f15aa-bd2c-8181-aaf4-e33149e6a0d0",
         "41ef15aa-bd2c-81b9-b89f-f657a3269692",
+        "41ef15aa-bd2c-81b5-a67b-dd0030fe827d",
         "41ef15aa-bd2c-81e4-b4a4-c68059a2c5c4"
       ],
       "documents": [
@@ -412,14 +403,14 @@
         "高风险实体合并、发布和数据修订必须保留审计记录"
       ],
       "core": [
-        "420f15aa-bd2c-8101-9bf8-f6fd96306008",
-        "420f15aa-bd2c-819a-a4a9-ed1d6881723f",
-        "420f15aa-bd2c-81e2-993b-df1c7f0e66f3",
         "420f15aa-bd2c-818a-8eb7-db7decaa62a0",
+        "420f15aa-bd2c-8101-9bf8-f6fd96306008",
         "421f15aa-bd2c-811d-b495-fda1d589d75e",
         "420f15aa-bd2c-8110-8817-ff29df9f1a5b",
-        "41ef15aa-bd2c-813e-a35e-d0d1debb76e4",
-        "41ef15aa-bd2c-8119-8ed3-d91be6f57841"
+        "420f15aa-bd2c-81e2-993b-df1c7f0e66f3",
+        "420f15aa-bd2c-819a-a4a9-ed1d6881723f",
+        "41ef15aa-bd2c-8119-8ed3-d91be6f57841",
+        "41ef15aa-bd2c-813e-a35e-d0d1debb76e4"
       ],
       "documents": [
         {
@@ -510,18 +501,18 @@
         "正常路径自动测试与结项，异常和高风险操作按权限升级"
       ],
       "core": [
-        "420f15aa-bd2c-81c9-9fa2-e77f0329b00e",
+        "420f15aa-bd2c-819b-85bd-d40ffe7322c8",
         "422f15aa-bd2c-8107-ac76-d4ed9a2ba99b",
-        "420f15aa-bd2c-8144-9ec1-c1ba648650b8",
-        "420f15aa-bd2c-81a0-b604-c11ee1c412be",
+        "424f15aa-bd2c-8189-9e5b-efb6d2a111c9",
+        "424f15aa-bd2c-814c-866e-cd2711b2c337",
         "420f15aa-bd2c-811e-855d-d311a3cd1d70",
         "420f15aa-bd2c-8178-a960-d404382f2e9a",
-        "420f15aa-bd2c-819b-85bd-d40ffe7322c8",
-        "424f15aa-bd2c-814c-866e-cd2711b2c337",
-        "424f15aa-bd2c-8189-9e5b-efb6d2a111c9",
+        "420f15aa-bd2c-81c9-9fa2-e77f0329b00e",
+        "420f15aa-bd2c-81a0-b604-c11ee1c412be",
         "41ef15aa-bd2c-81a1-a3aa-fa747acadd20",
+        "424f15aa-bd2c-8102-94bf-e38385ea7f9e",
         "420f15aa-bd2c-8118-9644-e97996615ade",
-        "424f15aa-bd2c-8102-94bf-e38385ea7f9e"
+        "420f15aa-bd2c-8144-9ec1-c1ba648650b8"
       ],
       "task_databases": [
         "VATHEN 开发进度看板",
@@ -1124,10 +1115,9 @@
         "知识加载失败、权限不足或证据不完整时应停止或降级"
       ],
       "core": [
-        "41ef15aa-bd2c-81e0-9c14-e41df6c8e7bc",
         "422f15aa-bd2c-8103-947f-d01b5e3215a7",
-        "41ef15aa-bd2c-813a-8580-de87d570d2bf",
-        "41ef15aa-bd2c-817c-94c4-fb760e40d60c"
+        "41ef15aa-bd2c-817c-94c4-fb760e40d60c",
+        "41ef15aa-bd2c-81e0-9c14-e41df6c8e7bc"
       ],
       "documents": [
         {
@@ -1147,14 +1137,6 @@
           "edited_at": "2026-11-24T02:57:18.751Z"
         },
         {
-          "id": "41ef15aa-bd2c-813a-8580-de87d570d2bf",
-          "title": "研究内容生产流水线｜产品与开发规范",
-          "url": "https://app.notion.com/p/41ef15aabd2c813a8580de87d570d2bf",
-          "role": "core",
-          "status": "参考资料",
-          "edited_at": "2026-11-20T23:08:45.268Z"
-        },
-        {
           "id": "41ef15aa-bd2c-81e0-9c14-e41df6c8e7bc",
           "title": "长期自主智能体任务总纲｜V1.0",
           "url": "https://app.notion.com/p/41ef15aabd2c81e09c14e41df6c8e7bc",
@@ -1172,8 +1154,8 @@
           "database": null
         }
       ],
-      "count": 5,
-      "core_count": 4
+      "count": 4,
+      "core_count": 3
     },
     {
       "id": "governance",
@@ -1194,15 +1176,14 @@
         "任何重要变更记录版本、原因、影响范围和迁移方式"
       ],
       "core": [
-        "41ef15aa-bd2c-8197-b0b7-f231d6a0f7a2",
         "41ef15aa-bd2c-817b-b36d-c212e1bf5359",
-        "424f15aa-bd2c-812c-9d27-dfaf21e280dc",
-        "41ef15aa-bd2c-81a4-e2ea-3e528c6df2",
-        "41ef15aa-bd2c-8174-b396-fc796c558044",
+        "41ef15aa-bd2c-8144-9df6-c78b59537957",
         "41ff15aa-bd2c-819d-be2c-c8ad4d836a4d",
         "41ff15aa-bd2c-817d-ad6f-db813e8dd14c",
-        "41ef15aa-bd2c-8144-9df6-c78b59537957",
-        "420f15aa-bd2c-8195-930b-e3ca4025cdcd"
+        "424f15aa-bd2c-812c-9d27-dfaf21e280dc",
+        "420f15aa-bd2c-8195-930b-e3ca4025cdcd",
+        "41ef15aa-bd2c-8174-b396-fc796c558044",
+        "41ef15aa-bd2c-8197-b0b7-f231d6a0f7a2"
       ],
       "documents": [
         {
