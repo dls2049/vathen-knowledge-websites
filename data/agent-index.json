@@ -13,6 +13,7 @@
   "reading_protocol": [
     "Load data/knowledge-architecture.json before retrieving page content.",
     "Choose the relevant section and follow its reading sequence.",
+    "Keep canonical standards separate from task rows: retrieve execution records only for current task state and delivery evidence.",
     "Read role=core documents first; use role=related for supporting detail; role=task for execution state; role=archive for historical traceability.",
     "Prefer the latest confirmed or execution-baseline document when versions conflict; if status is proposed or pending review, do not treat it as approved.",
     "Preserve the Notion source URL and document ID when citing. Never infer approval from recency alone."
@@ -67,6 +68,10 @@
       "id": "decisions",
       "name": "决策、路线图与变更记录",
       "root_page_id": "41ef15aa-bd2c-816d-9cab-cd875cd92602"
+    },
+    {
+      "id": "execution",
+      "name": "项目执行与交付"
     }
   ],
   "data_files": [
@@ -123,6 +128,7 @@
     "engineering": "Architecture decisions, delivery plans, implementation standards, CI/CD and project tasks.",
     "agents": "Agent roles, prompts, knowledge binding, tool permissions, autonomy and evaluation.",
     "governance": "Versioning, source-of-truth, audits, missing materials, decision records and roadmap.",
-    "archive": "Original Notion pages, historical snapshots and traceability-only records."
+    "archive": "Original Notion pages, historical snapshots and traceability-only records.",
+    "execution": "Task lifecycle, developer/Agent handoff, Sprint execution, delivery evidence, acceptance, progress and project task records."
   }
 }

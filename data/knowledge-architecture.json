@@ -8,7 +8,8 @@
     "先战略、后产品；先方法、后生产；先模型、后采集；先架构、后工程；先权限、后自动化。",
     "每个主题设置一个正式入口，相关材料作为支撑或历史档案。",
     "正式基线、建议方案、待验证事项、历史档案分开标记。",
-    "保留原文链接和版本信息；本网站的整理说明不替代未批准的 Notion 决策。"
+    "保留原文链接和版本信息；本网站的整理说明不替代未批准的 Notion 决策。",
+    "规范与任务分层：知识规范说明标准，项目执行模块呈现任务状态和交付证据。"
   ],
   "reading_paths": [
     {
@@ -21,6 +22,7 @@
         "研究方法与内容",
         "数据与情报体系",
         "技术架构与工程",
+        "项目执行与交付",
         "Agent 与自动化",
         "运营、治理与路线图"
       ]
@@ -41,6 +43,16 @@
         "产品体系",
         "数据与情报体系",
         "技术架构与工程",
+        "Agent 与自动化",
+        "运营、治理与路线图"
+      ]
+    },
+    {
+      "name": "工程负责人 / 项目交付",
+      "steps": [
+        "技术架构与工程",
+        "项目执行与交付",
+        "数据与情报体系",
         "Agent 与自动化",
         "运营、治理与路线图"
       ]
@@ -503,15 +515,10 @@
       "core": [
         "420f15aa-bd2c-819b-85bd-d40ffe7322c8",
         "422f15aa-bd2c-8107-ac76-d4ed9a2ba99b",
-        "424f15aa-bd2c-8189-9e5b-efb6d2a111c9",
-        "424f15aa-bd2c-814c-866e-cd2711b2c337",
         "420f15aa-bd2c-811e-855d-d311a3cd1d70",
         "420f15aa-bd2c-8178-a960-d404382f2e9a",
         "420f15aa-bd2c-81c9-9fa2-e77f0329b00e",
         "420f15aa-bd2c-81a0-b604-c11ee1c412be",
-        "41ef15aa-bd2c-81a1-a3aa-fa747acadd20",
-        "424f15aa-bd2c-8102-94bf-e38385ea7f9e",
-        "420f15aa-bd2c-8118-9644-e97996615ade",
         "420f15aa-bd2c-8144-9ec1-c1ba648650b8"
       ],
       "task_databases": [
@@ -534,22 +541,6 @@
           "role": "core",
           "status": "总体架构基线建议稿",
           "edited_at": "2026-11-24T03:18:50.612Z"
-        },
-        {
-          "id": "424f15aa-bd2c-8189-9e5b-efb6d2a111c9",
-          "title": "📋 VATHEN 开发进度看板｜开发人员与 Agent 回填规范 V1.2",
-          "url": "https://app.notion.com/p/424f15aabd2c81899e5befb6d2a111c9",
-          "role": "core",
-          "status": "改为「待验收」，不可直接改「已完成」",
-          "edited_at": "2026-11-26T07:41:26.908Z"
-        },
-        {
-          "id": "424f15aa-bd2c-814c-866e-cd2711b2c337",
-          "title": "🔌 VATHEN 跨 Agent 开发任务读写协议 V1.2",
-          "url": "https://app.notion.com/p/424f15aabd2c814c866ecd2711b2c337",
-          "role": "core",
-          "status": "参考资料",
-          "edited_at": "2026-11-26T07:41:25.435Z"
         },
         {
           "id": "420f15aa-bd2c-811e-855d-d311a3cd1d70",
@@ -584,6 +575,70 @@
           "edited_at": "2026-11-22T08:22:29.275Z"
         },
         {
+          "id": "420f15aa-bd2c-8144-9ec1-c1ba648650b8",
+          "title": "VATHEN DAC Sprint 0｜架构冻结与开发准备执行包 V1.0",
+          "url": "https://app.notion.com/p/420f15aabd2c81449ec1c1ba648650b8",
+          "role": "core",
+          "status": "执行基线（部分决策已确认，部分参数待核实） 更新日期：2026-11-22 适用",
+          "edited_at": "2026-11-22T08:32:22.647Z"
+        },
+        {
+          "id": "41ef15aa-bd2c-815b-af3f-caaff1eedf48",
+          "title": "07｜开发与技术架构 Engineering",
+          "url": "https://app.notion.com/p/41ef15aabd2c815baf3fcaaff1eedf48",
+          "role": "related",
+          "status": "总体架构基线建议稿",
+          "edited_at": "2026-11-26T07:42:59.815Z",
+          "database": null
+        }
+      ],
+      "count": 8,
+      "core_count": 7
+    },
+    {
+      "id": "execution",
+      "number": "08",
+      "title": "项目执行与交付",
+      "en": "PROJECT EXECUTION",
+      "purpose": "把已确认的知识规范转化为有负责人、有优先级、有验收条件和可追溯证据的项目任务。这里集中管理开发进度、DAC 任务、Sprint 交付与 Agent 回填规则；任务状态以对应 Notion 数据库为事实来源。",
+      "order": "先读任务读写与回填协议，再看开发进度与 DAC 任务清单；任务完成必须有独立验收证据。",
+      "reading": [
+        "跨 Agent 开发任务读写协议 V1.2",
+        "开发人员与 Agent 回填规范 V1.2",
+        "VATHEN 开发进度看板",
+        "VATHEN DAC 开发任务看板"
+      ],
+      "principles": [
+        "知识规范定义应该怎么做；任务数据库记录正在做什么，两者不能混为一谈。",
+        "正常路径由执行 Agent 推进、自动 QA / CI 验收和自动结项；异常、高风险或权限边界问题再升级。",
+        "任务完成必须附带验收运行 ID、报告链接、证据摘要和完成日期，不接受仅凭自述结项。",
+        "任务状态以对应 Notion 数据库为事实来源；本网站是整理后的阅读和检索界面。"
+      ],
+      "core": [
+        "424f15aa-bd2c-8189-9e5b-efb6d2a111c9",
+        "424f15aa-bd2c-814c-866e-cd2711b2c337",
+        "41ef15aa-bd2c-81a1-a3aa-fa747acadd20",
+        "424f15aa-bd2c-8102-94bf-e38385ea7f9e",
+        "420f15aa-bd2c-8118-9644-e97996615ade"
+      ],
+      "documents": [
+        {
+          "id": "424f15aa-bd2c-8189-9e5b-efb6d2a111c9",
+          "title": "📋 VATHEN 开发进度看板｜开发人员与 Agent 回填规范 V1.2",
+          "url": "https://app.notion.com/p/424f15aabd2c81899e5befb6d2a111c9",
+          "role": "core",
+          "status": "改为「待验收」，不可直接改「已完成」",
+          "edited_at": "2026-11-26T07:41:26.908Z"
+        },
+        {
+          "id": "424f15aa-bd2c-814c-866e-cd2711b2c337",
+          "title": "🔌 VATHEN 跨 Agent 开发任务读写协议 V1.2",
+          "url": "https://app.notion.com/p/424f15aabd2c814c866ecd2711b2c337",
+          "role": "core",
+          "status": "参考资料",
+          "edited_at": "2026-11-26T07:41:25.435Z"
+        },
+        {
           "id": "41ef15aa-bd2c-81a1-a3aa-fa747acadd20",
           "title": "开发项目交付清单与当前状态｜V1.1",
           "url": "https://app.notion.com/p/41ef15aabd2c81a1a3aafa747acadd20",
@@ -606,23 +661,6 @@
           "role": "core",
           "status": "参考资料",
           "edited_at": null
-        },
-        {
-          "id": "420f15aa-bd2c-8144-9ec1-c1ba648650b8",
-          "title": "VATHEN DAC Sprint 0｜架构冻结与开发准备执行包 V1.0",
-          "url": "https://app.notion.com/p/420f15aabd2c81449ec1c1ba648650b8",
-          "role": "core",
-          "status": "执行基线（部分决策已确认，部分参数待核实） 更新日期：2026-11-22 适用",
-          "edited_at": "2026-11-22T08:32:22.647Z"
-        },
-        {
-          "id": "424f15aa-bd2c-81f1-a8ce-fe7dcc10a383",
-          "title": "📊 开发进度网页版看板｜V1.0 历史快照（非正式入口）",
-          "url": "https://app.notion.com/p/424f15aabd2c81f1a8cefe7dcc10a383",
-          "role": "related",
-          "status": "历史档案",
-          "edited_at": "2026-11-26T07:44:49.407Z",
-          "database": null
         },
         {
           "id": "424f15aabd2c8196862ae497cd5b126e",
@@ -677,15 +715,6 @@
           "status": "任务记录",
           "edited_at": null,
           "database": "VATHEN 开发进度看板"
-        },
-        {
-          "id": "41ef15aa-bd2c-815b-af3f-caaff1eedf48",
-          "title": "07｜开发与技术架构 Engineering",
-          "url": "https://app.notion.com/p/41ef15aabd2c815baf3fcaaff1eedf48",
-          "role": "related",
-          "status": "总体架构基线建议稿",
-          "edited_at": "2026-11-26T07:42:59.815Z",
-          "database": null
         },
         {
           "id": "424f15aabd2c81eb9fc9d1ccea671635",
@@ -1093,12 +1122,16 @@
           "database": "VATHEN DAC 开发任务看板"
         }
       ],
-      "count": 65,
-      "core_count": 12
+      "task_databases": [
+        "VATHEN 开发进度看板",
+        "VATHEN DAC 开发任务看板"
+      ],
+      "count": 56,
+      "core_count": 5
     },
     {
       "id": "agents",
-      "number": "08",
+      "number": "09",
       "title": "Agent 与自动化",
       "en": "AGENTS & AUTOMATION",
       "purpose": "定义 Agent 的角色、知识绑定、工具权限、协作协议、运行监控和自主执行边界，让自动化流程可靠、可复核而非只依赖 Prompt。",
@@ -1159,7 +1192,7 @@
     },
     {
       "id": "governance",
-      "number": "09",
+      "number": "10",
       "title": "运营、治理与路线图",
       "en": "OPERATIONS & GOVERNANCE",
       "purpose": "集中管理版本、知识生命周期、项目待办、资料缺口、运营节奏和决策记录，确保知识体系长期可维护。",
@@ -1272,6 +1305,15 @@
       "core": [],
       "documents": [
         {
+          "id": "424f15aa-bd2c-81f1-a8ce-fe7dcc10a383",
+          "title": "📊 开发进度网页版看板｜V1.0 历史快照（非正式入口）",
+          "url": "https://app.notion.com/p/424f15aabd2c81f1a8cefe7dcc10a383",
+          "role": "related",
+          "status": "历史快照 · 非正式入口",
+          "edited_at": "2026-11-26T07:44:49.407Z",
+          "database": null
+        },
+        {
           "id": "41ef15aa-bd2c-816d-9cab-cd875cd92602",
           "title": "10｜决策、路线图与变更记录 Decisions",
           "url": "https://app.notion.com/p/41ef15aabd2c816d9cabcd875cd92602",
@@ -1281,7 +1323,7 @@
           "database": null
         }
       ],
-      "count": 1,
+      "count": 2,
       "core_count": 0
     }
   ]
