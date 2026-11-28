@@ -55,14 +55,6 @@
       "markdown": "<b>状态</b>：设计评审稿，不等于生产数据库已部署。\n\n## 技术原则\n\nPostgreSQL 关系型数据库；原始文件使用对象存储；先全文检索，向量检索按实际需求增加。核心研究资产必须由 VATHEN 自有数据层持久化。\n\n## 核心实体\n\nResearchProject、ResearchQuestion、Source、Document、Evidence、Claim、ClaimEvidenceLink、ResearchTask、ExecutionRun、ExecutionEvent、MethodDefinition、MethodVersion、MethodRun、Forecast、ForecastRevision、ForecastEvent、ForecastAssumption、ForecastScenario、ForecastIndicator、ForecastObservation、ForecastOutcome、ForecastScore、Report、ReportVersion、ReviewRecord、AuditEvent。\n\n## 证据链\n\nSource → Document → Evidence → Claim → ReportVersion。\n\n## 方法链\n\nMethodDefinition → MethodVersion → MethodRun → Evidence / Claim。\n\n## 预测链\n\nForecast → ForecastRevision → Evidence / MethodRun → Outcome → Score。\n\n## 执行链\n\nResearchTask → ExecutionRun → MethodRun → ReviewRecord → ReportVersion。\n\n## 版本与审计\n\n预测修订不可覆盖历史；已被执行的方法版本不可变；报告必须有版本；保留证据截止时间、来源时间、采集时间、更新时间和操作审计。\n\n## 初始方法 ID\n\nSCALING\\_CONSTRAINTS\\_V1、SCENARIO\\_CAUSAL\\_V1、REFERENCE\\_CLASS\\_FORECAST\\_V1。\n\n## 延后项\n\n复杂专家聚合、复杂系统动力学平台、自动指标监测、独立向量数据库和微服务化均不应在 MVP 阶段无必要引入。",
       "edited_at": "2026-11-20T23:08:43.577Z",
       "truncated": false
-    },
-    {
-      "id": "420f15aa-bd2c-81c8-9d70-cb2ee06d15a4",
-      "title": "建立 Sprint 0 架构冻结与开发准备执行包",
-      "url": "https://app.notion.com/p/420f15aabd2c81c89d70cb2ee06d15a4",
-      "markdown": "## 完成记录\n\n已创建《VATHEN DAC Sprint 0｜架构冻结与开发准备执行包 V1.0》，Notion 页面：<mention url=\"https://app.notion.com/p/420f15aabd2c81449ec1c1ba648650b8\">VATHEN DAC Sprint 0｜架构冻结与开发准备执行包 V1.0</mention>\n\n## 说明\n\n本任务仅表示执行包文档已建立，不代表 Sprint 0 已完成或技术参数已全部冻结。",
-      "edited_at": "2026-11-22T08:22:32.953Z",
-      "truncated": false
     }
   ]
 }
