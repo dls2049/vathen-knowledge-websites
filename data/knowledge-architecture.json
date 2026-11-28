@@ -1,0 +1,1307 @@
+{
+  "schema_version": "2.0.0",
+  "title": "先知知识体系",
+  "subtitle": "从战略到研究，从数据到执行的统一知识架构",
+  "updated_at": "2026-11-28",
+  "source_of_truth": "Notion 原始页面与已确认决策；本网站负责整理、组织和阅读呈现",
+  "organization_principles": [
+    "先战略、后产品；先方法、后生产；先模型、后采集；先架构、后工程；先权限、后自动化。",
+    "每个主题设置一个正式入口，相关材料作为支撑或历史档案。",
+    "正式基线、建议方案、待验证事项、历史档案分开标记。",
+    "保留原文链接和版本信息；本网站的整理说明不替代未批准的 Notion 决策。"
+  ],
+  "reading_paths": [
+    {
+      "name": "新成员 / Agent 入门",
+      "steps": [
+        "战略与定位",
+        "品牌系统",
+        "商业模式与用户",
+        "产品体系",
+        "研究方法与内容",
+        "数据与情报体系",
+        "技术架构与工程",
+        "Agent 与自动化",
+        "运营、治理与路线图"
+      ]
+    },
+    {
+      "name": "研究内容生产",
+      "steps": [
+        "战略与定位",
+        "商业模式与用户",
+        "研究方法与内容",
+        "Agent 与自动化",
+        "数据与情报体系"
+      ]
+    },
+    {
+      "name": "数据平台建设",
+      "steps": [
+        "产品体系",
+        "数据与情报体系",
+        "技术架构与工程",
+        "Agent 与自动化",
+        "运营、治理与路线图"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "strategy",
+      "number": "01",
+      "title": "战略与定位",
+      "en": "STRATEGY",
+      "purpose": "定义先知为什么存在、研究什么问题、服务谁，以及长期要建立怎样的竞争优势。它是所有产品、内容和技术工作的最高层依据。",
+      "order": "先理解方向，再讨论产品和执行。",
+      "reading": [
+        "品牌故事与商业规划简报",
+        "目标付费用户与内容选题战略",
+        "竞争格局与标杆研究"
+      ],
+      "principles": [
+        "战略判断与执行状态分开记录",
+        "用户、需求、价值主张、商业结果形成闭环",
+        "竞品资料只作证据与参考，不直接等同于先知决策"
+      ],
+      "core": [
+        "41ef15aa-bd2c-81ab-a0d7-d140f0cd39ee",
+        "41ff15aa-bd2c-812d-b334-c4f22781236f",
+        "420f15aa-bd2c-818a-a4d7-f570d1bc6325",
+        "41ef15aa-bd2c-810e-9666-e58a5962b33d"
+      ],
+      "documents": [
+        {
+          "id": "41ff15aa-bd2c-812d-b334-c4f22781236f",
+          "title": "🎯 目标付费用户与内容选题战略｜V1.0",
+          "url": "https://app.notion.com/p/41ff15aabd2c812db334c4f22781236f",
+          "role": "core",
+          "status": "讨论结论结构化整理",
+          "edited_at": "2026-11-24T02:51:27.721Z"
+        },
+        {
+          "id": "420f15aa-bd2c-818a-a4d7-f570d1bc6325",
+          "title": "🧭 VATHEN 竞争格局与网站标杆研究｜商业竞品、数据平台与体验借鉴 V1.0",
+          "url": "https://app.notion.com/p/420f15aabd2c818aa4d7f570d1bc6325",
+          "role": "core",
+          "status": "参考资料",
+          "edited_at": "2026-11-22T05:44:41.840Z"
+        },
+        {
+          "id": "41ef15aa-bd2c-810e-9666-e58a5962b33d",
+          "title": "竞品研究框架与参考产品",
+          "url": "https://app.notion.com/p/41ef15aabd2c810e9666e58a5962b33d",
+          "role": "core",
+          "status": "参考资料",
+          "edited_at": "2026-11-20T23:08:48.389Z"
+        },
+        {
+          "id": "41ef15aa-bd2c-81ab-a0d7-d140f0cd39ee",
+          "title": "品牌故事与商业规划简报｜V1.0",
+          "url": "https://app.notion.com/p/41ef15aabd2c81aba0d7d140f0cd39ee",
+          "role": "core",
+          "status": "执行说明稿",
+          "edited_at": "2026-11-20T23:08:36.810Z"
+        }
+      ],
+      "count": 4,
+      "core_count": 4
+    },
+    {
+      "id": "brand",
+      "number": "02",
+      "title": "品牌系统",
+      "en": "BRAND SYSTEM",
+      "purpose": "统一品牌定位、品牌叙事、视觉识别和设计资产，保证网站、研究内容、产品界面及对外材料使用同一套品牌语言。",
+      "order": "战略定位确认后，先统一品牌表达与视觉规范。",
+      "reading": [
+        "品牌故事与商业规划简报",
+        "品牌视觉系统与设计资产档案"
+      ],
+      "principles": [
+        "品牌规范优先于单次设计偏好",
+        "设计资产需记录版本、源文件与使用场景",
+        "新设计必须符合品牌识别和可访问性要求"
+      ],
+      "core": [
+        "41ef15aa-bd2c-817b-ad80-d9c5264e983d",
+        "41ef15aa-bd2c-81d8-9946-fb6b312de763"
+      ],
+      "documents": [
+        {
+          "id": "41ef15aa-bd2c-81d8-9946-fb6b312de763",
+          "title": "01｜品牌与组织 Brand",
+          "url": "https://app.notion.com/p/41ef15aabd2c81d89946fb6b312de763",
+          "role": "core",
+          "status": "品牌核心表达已确认",
+          "edited_at": "2026-11-20T22:54:13.492Z"
+        },
+        {
+          "id": "41ef15aa-bd2c-817b-ad80-d9c5264e983d",
+          "title": "VATHEN 品牌视觉系统与设计资产档案｜V1.2",
+          "url": "https://app.notion.com/p/41ef15aabd2c817bad80d9c5264e983d",
+          "role": "core",
+          "status": "视觉方向为执行基线",
+          "edited_at": "2026-11-21T05:01:15.269Z"
+        },
+        {
+          "id": "41ef15aa-bd2c-81ed-9ee0-e05fad59fbb5",
+          "title": "04｜设计与视觉 Design",
+          "url": "https://app.notion.com/p/41ef15aabd2c81ed9ee0e05fad59fbb5",
+          "role": "related",
+          "status": "视觉方向为执行基线",
+          "edited_at": "2026-11-20T23:24:49.179Z",
+          "database": null
+        }
+      ],
+      "count": 3,
+      "core_count": 2
+    },
+    {
+      "id": "business",
+      "number": "03",
+      "title": "商业模式与用户",
+      "en": "BUSINESS MODEL",
+      "purpose": "把目标付费用户、用户问题、内容价值、会员产品、定价与增长路径组织为一套可验证的商业系统。",
+      "order": "明确用户与付费价值，再定义会员权益和增长机制。",
+      "reading": [
+        "目标付费用户与内容选题战略",
+        "商业战略与会员产品档案",
+        "竞争格局与网站标杆研究"
+      ],
+      "principles": [
+        "区分用户画像假设与已验证事实",
+        "价格、转化率和收入预测需标注假设",
+        "会员权益必须对应清晰的用户价值"
+      ],
+      "core": [
+        "41ef15aa-bd2c-816a-af46-cb6a486c8348",
+        "41ff15aa-bd2c-812d-b334-c4f22781236f",
+        "41ef15aa-bd2c-818f-9278-e4c11cee3248"
+      ],
+      "documents": [
+        {
+          "id": "41ff15aa-bd2c-812d-b334-c4f22781236f",
+          "title": "🎯 目标付费用户与内容选题战略｜V1.0",
+          "url": "https://app.notion.com/p/41ff15aabd2c812db334c4f22781236f",
+          "role": "core",
+          "status": "讨论结论结构化整理",
+          "edited_at": "2026-11-24T02:51:27.721Z"
+        },
+        {
+          "id": "41ef15aa-bd2c-818f-9278-e4c11cee3248",
+          "title": "09｜运营与增长 Growth",
+          "url": "https://app.notion.com/p/41ef15aabd2c818f9278e4c11cee3248",
+          "role": "core",
+          "status": "参考资料",
+          "edited_at": "2026-11-20T23:26:15.030Z"
+        },
+        {
+          "id": "41ef15aa-bd2c-816a-af46-cb6a486c8348",
+          "title": "商业战略与会员产品档案｜投资人战略方案与会员 PRD",
+          "url": "https://app.notion.com/p/41ef15aabd2c816aaf46cb6a486c8348",
+          "role": "core",
+          "status": "参考资料",
+          "edited_at": "2026-11-20T23:28:54.093Z"
+        },
+        {
+          "id": "41ef15aa-bd2c-8178-93b5-fdd4f15d8c54",
+          "title": "02｜商业与市场 Business",
+          "url": "https://app.notion.com/p/41ef15aabd2c817893b5fdd4f15d8c54",
+          "role": "related",
+          "status": "参考资料",
+          "edited_at": "2026-11-20T23:24:54.351Z",
+          "database": null
+        }
+      ],
+      "count": 4,
+      "core_count": 3
+    },
+    {
+      "id": "product",
+      "number": "04",
+      "title": "产品体系",
+      "en": "PRODUCT SYSTEM",
+      "purpose": "定义用户实际使用的产品、功能模块、体验路径和交付边界，连接内容产品、研究工具、情报产品与官网平台。",
+      "order": "先看全站产品蓝图，再进入具体产品 PRD。",
+      "reading": [
+        "官网产品与工程总蓝图 V2.0",
+        "实体情报与产业知识网络 PRD",
+        "Research Radar / Intelligence Search"
+      ],
+      "principles": [
+        "产品蓝图决定系统边界，PRD 定义模块行为",
+        "MVP 与长期愿景分开管理",
+        "功能需求必须有用户场景、验收标准和数据依赖"
+      ],
+      "core": [
+        "420f15aa-bd2c-81cb-b0a1-ffcd8afb0ced",
+        "420f15aa-bd2c-8193-b3e9-c8c594179d4d",
+        "41ef15aa-bd2c-81b2-95ad-c8e8efbcea2e",
+        "41ef15aa-bd2c-8110-9343-dc231504ea91",
+        "41ef15aa-bd2c-813a-8580-de87d570d2bf"
+      ],
+      "documents": [
+        {
+          "id": "420f15aa-bd2c-8193-b3e9-c8c594179d4d",
+          "title": "🕸️ 实体情报与产业知识网络 PRD｜V1.0",
+          "url": "https://app.notion.com/p/420f15aabd2c8193b3e9c8c594179d4d",
+          "role": "core",
+          "status": "讨论方案 / 待产品与技术评审",
+          "edited_at": "2026-11-22T04:00:58.845Z"
+        },
+        {
+          "id": "420f15aa-bd2c-81cb-b0a1-ffcd8afb0ced",
+          "title": "🗺️ VATHEN 官网产品与工程总蓝图｜全站页面规格、系统架构与开发规范 V2.0",
+          "url": "https://app.notion.com/p/420f15aabd2c81cbb0a1ffcd8afb0ced",
+          "role": "core",
+          "status": "全新官网产品蓝图 / 待 Sprint 0 技术验证后锁定",
+          "edited_at": "2026-11-22T08:14:27.245Z"
+        },
+        {
+          "id": "41ef15aa-bd2c-813a-8580-de87d570d2bf",
+          "title": "研究内容生产流水线｜产品与开发规范",
+          "url": "https://app.notion.com/p/41ef15aabd2c813a8580de87d570d2bf",
+          "role": "core",
+          "status": "参考资料",
+          "edited_at": "2026-11-20T23:08:45.268Z"
+        },
+        {
+          "id": "41ef15aa-bd2c-8110-9343-dc231504ea91",
+          "title": "Intelligence Search｜产品战略与 MVP 规划",
+          "url": "https://app.notion.com/p/41ef15aabd2c81109343dc231504ea91",
+          "role": "core",
+          "status": "战略与产品规划，尚未上线",
+          "edited_at": "2026-11-20T23:08:46.982Z"
+        },
+        {
+          "id": "41ef15aa-bd2c-81b2-95ad-c8e8efbcea2e",
+          "title": "Research Radar｜PRD 与技术开发规范 V1.0",
+          "url": "https://app.notion.com/p/41ef15aabd2c81b295adc8e8efbcea2e",
+          "role": "core",
+          "status": "参考资料",
+          "edited_at": "2026-11-20T23:08:41.884Z"
+        },
+        {
+          "id": "41ef15aa-bd2c-81fd-848a-e1934b1458df",
+          "title": "03｜产品体系 Product",
+          "url": "https://app.notion.com/p/41ef15aabd2c81fd848ae1934b1458df",
+          "role": "related",
+          "status": "开发基线提案，待 Sprint 0 评审",
+          "edited_at": "2026-11-22T05:10:24.931Z",
+          "database": null
+        }
+      ],
+      "count": 6,
+      "core_count": 5
+    },
+    {
+      "id": "research",
+      "number": "05",
+      "title": "研究方法与内容",
+      "en": "RESEARCH & EDITORIAL",
+      "purpose": "定义研究问题如何形成、证据如何采集和核验、观点如何形成、文章如何写作与验收，是先知内容质量的核心生产规范。",
+      "order": "先读研究原则与写作规范，再读生产流水线和 Agent 工位。",
+      "reading": [
+        "中文内容语言人格与写作风格指南",
+        "中文深度研究报告写作规范",
+        "研究内容生产流水线与 Agent 职责矩阵",
+        "写作风格评测集与验收规范"
+      ],
+      "principles": [
+        "事实、分析、预测、假设与意见必须区分",
+        "关键结论要有可追溯证据和反证检查",
+        "研究流程必须定义输入、输出、责任、验收与失败回退"
+      ],
+      "core": [
+        "422f15aa-bd2c-8131-8c2b-c7f07167b0af",
+        "41ef15aa-bd2c-81b5-a67b-dd0030fe827d",
+        "422f15aa-bd2c-8181-aaf4-e33149e6a0d0",
+        "41ef15aa-bd2c-81d3-8b03-d97156b767f3",
+        "41ef15aa-bd2c-81b9-b89f-f657a3269692",
+        "41ef15aa-bd2c-81e4-b4a4-c68059a2c5c4"
+      ],
+      "documents": [
+        {
+          "id": "422f15aa-bd2c-8131-8c2b-c7f07167b0af",
+          "title": "✍️ 先知中文内容语言人格与写作风格指南｜V1.0",
+          "url": "https://app.notion.com/p/422f15aabd2c81318c2bc7f07167b0af",
+          "role": "core",
+          "status": "执行基线（用户已明确选择整体风格方向）  适用范围 ：先知全部中文内容、深度研究",
+          "edited_at": "2026-11-24T02:50:38.772Z"
+        },
+        {
+          "id": "41ef15aa-bd2c-81d3-8b03-d97156b767f3",
+          "title": "📝 待写作选题池｜历史规划与新增建议 V1.1",
+          "url": "https://app.notion.com/p/41ef15aabd2c81d38b03d97156b767f3",
+          "role": "core",
+          "status": "历史档案",
+          "edited_at": "2026-11-24T02:57:27.209Z"
+        },
+        {
+          "id": "422f15aa-bd2c-8181-aaf4-e33149e6a0d0",
+          "title": "🧪 先知写作风格评测集与验收规范 V1.0",
+          "url": "https://app.notion.com/p/422f15aabd2c8181aaf4e33149e6a0d0",
+          "role": "core",
+          "status": "参考资料",
+          "edited_at": "2026-11-24T03:08:31.239Z"
+        },
+        {
+          "id": "41ef15aa-bd2c-81b9-b89f-f657a3269692",
+          "title": "研究成果与文章档案登记簿｜V1.1",
+          "url": "https://app.notion.com/p/41ef15aabd2c81b9b89ff657a3269692",
+          "role": "core",
+          "status": "选题 / 研究中 / 初稿 / 自动审核 / 人工审核 / 已批准 / 已发布 ",
+          "edited_at": "2026-11-21T04:57:15.406Z"
+        },
+        {
+          "id": "41ef15aa-bd2c-81b5-a67b-dd0030fe827d",
+          "title": "中文深度研究报告写作规范｜V1.0",
+          "url": "https://app.notion.com/p/41ef15aabd2c81b5a67bdd0030fe827d",
+          "role": "core",
+          "status": "参考资料",
+          "edited_at": "2026-11-24T02:51:25.968Z"
+        },
+        {
+          "id": "41ef15aa-bd2c-81e4-b4a4-c68059a2c5c4",
+          "title": "VATHEN 研究内容生产工作流与 Agent 职责矩阵｜V1.0 整理稿",
+          "url": "https://app.notion.com/p/41ef15aabd2c81e4b4a4c68059a2c5c4",
+          "role": "core",
+          "status": "执行框架整理稿",
+          "edited_at": "2026-11-20T23:28:12.774Z"
+        },
+        {
+          "id": "41ef15aa-bd2c-8162-8a5b-d95426694380",
+          "title": "05｜研究与内容规范 Research",
+          "url": "https://app.notion.com/p/41ef15aabd2c81628a5bd95426694380",
+          "role": "related",
+          "status": "参考资料",
+          "edited_at": "2026-11-24T02:51:24.436Z",
+          "database": null
+        },
+        {
+          "id": "41ef15aa-bd2c-81a1-a4e2-ea3e528c6df2",
+          "title": "近期文章与设计资产归档核查清单｜2026-11-21",
+          "url": "https://app.notion.com/p/41ef15aabd2c81a1a4e2ea3e528c6df2",
+          "role": "related",
+          "status": "参考资料",
+          "edited_at": "2026-11-20T23:29:01.293Z",
+          "database": null
+        }
+      ],
+      "count": 8,
+      "core_count": 6
+    },
+    {
+      "id": "data",
+      "number": "06",
+      "title": "数据与情报体系",
+      "en": "DATA & INTELLIGENCE",
+      "purpose": "定义先知如何持续采集、治理、关联、验证和分析全球信息，建设 DAC、实体网络、来源适配器与情报看板。",
+      "order": "先理解 DAC 总体架构，再读数据模型、来源接入和看板规格。",
+      "reading": [
+        "DAC 总体架构与数据治理规范",
+        "核心数据模型与字段字典",
+        "外部开放数据源与知识图谱研究",
+        "Source Adapter 开发规范",
+        "全球情报 Dashboard 规格"
+      ],
+      "principles": [
+        "来源、原始文档、证据、Claim、实体与关系可追溯",
+        "数据模型先于采集脚本，许可审查先于商业使用",
+        "高风险实体合并、发布和数据修订必须保留审计记录"
+      ],
+      "core": [
+        "420f15aa-bd2c-8101-9bf8-f6fd96306008",
+        "420f15aa-bd2c-819a-a4a9-ed1d6881723f",
+        "420f15aa-bd2c-81e2-993b-df1c7f0e66f3",
+        "420f15aa-bd2c-818a-8eb7-db7decaa62a0",
+        "421f15aa-bd2c-811d-b495-fda1d589d75e",
+        "420f15aa-bd2c-8110-8817-ff29df9f1a5b",
+        "41ef15aa-bd2c-813e-a35e-d0d1debb76e4",
+        "41ef15aa-bd2c-8119-8ed3-d91be6f57841"
+      ],
+      "documents": [
+        {
+          "id": "420f15aa-bd2c-818a-8eb7-db7decaa62a0",
+          "title": "🌐 VATHEN 外部开放数据源与知识图谱平台研究｜借鉴、API、许可与接入优先级 V1.0",
+          "url": "https://app.notion.com/p/420f15aabd2c818a8eb7db7decaa62a0",
+          "role": "core",
+          "status": "外部数据源评估与接入建议",
+          "edited_at": "2026-11-22T05:45:24.195Z"
+        },
+        {
+          "id": "420f15aa-bd2c-8101-9bf8-f6fd96306008",
+          "title": "🏛️ VATHEN 数据资产中心 DAC｜总体架构、数据治理、部署与开发实施规范 V1.2",
+          "url": "https://app.notion.com/p/420f15aabd2c81019bf8f6fd96306008",
+          "role": "core",
+          "status": "目标架构建议稿，待 Sprint 0 评审与 ADR 锁定",
+          "edited_at": "2026-11-23T09:27:24.878Z"
+        },
+        {
+          "id": "421f15aa-bd2c-811d-b495-fda1d589d75e",
+          "title": "📊 DAC 全球情报总览 Dashboard 指标体系与页面规格｜V1.0",
+          "url": "https://app.notion.com/p/421f15aabd2c811db495fda1d589d75e",
+          "role": "core",
+          "status": "产品规格基线",
+          "edited_at": "2026-11-23T09:27:12.731Z"
+        },
+        {
+          "id": "420f15aa-bd2c-8110-8817-ff29df9f1a5b",
+          "title": "🔌 VATHEN DAC Source Adapter 开发规范｜P0/P1 数据源接入与质量门禁 V1.0",
+          "url": "https://app.notion.com/p/420f15aabd2c81108817ff29df9f1a5b",
+          "role": "core",
+          "status": "首期开发规范建议稿",
+          "edited_at": "2026-11-22T05:44:41.840Z"
+        },
+        {
+          "id": "420f15aa-bd2c-81e2-993b-df1c7f0e66f3",
+          "title": "🕸️ VATHEN 实体情报网络｜数据模型、API 与开发实施规范 V1.1",
+          "url": "https://app.notion.com/p/420f15aabd2c81e2993bdf1c7f0e66f3",
+          "role": "core",
+          "status": "产品开发基线提案，待 Sprint 0 产品/工程评审",
+          "edited_at": "2026-11-22T05:09:43.479Z"
+        },
+        {
+          "id": "420f15aa-bd2c-819a-a4a9-ed1d6881723f",
+          "title": "🧩 VATHEN DAC 核心数据模型与字段字典｜ERD、状态机与 API V1.0",
+          "url": "https://app.notion.com/p/420f15aabd2c819aa4a9ed1d6881723f",
+          "role": "core",
+          "status": "核心逻辑模型建议稿",
+          "edited_at": "2026-11-22T08:23:14.505Z"
+        },
+        {
+          "id": "41ef15aa-bd2c-8119-8ed3-d91be6f57841",
+          "title": "06｜数据与情报 Data",
+          "url": "https://app.notion.com/p/41ef15aabd2c81198ed3d91be6f57841",
+          "role": "core",
+          "status": "参考资料",
+          "edited_at": "2026-11-23T09:27:26.417Z"
+        },
+        {
+          "id": "41ef15aa-bd2c-813e-a35e-d0d1debb76e4",
+          "title": "研究数据模型与数据库设计规范｜V1.0",
+          "url": "https://app.notion.com/p/41ef15aabd2c813ea35ed0d1debb76e4",
+          "role": "core",
+          "status": "设计评审稿，不等于生产数据库已部署",
+          "edited_at": "2026-11-20T23:08:43.577Z"
+        }
+      ],
+      "count": 8,
+      "core_count": 8
+    },
+    {
+      "id": "engineering",
+      "number": "07",
+      "title": "技术架构与工程",
+      "en": "ENGINEERING",
+      "purpose": "把产品和数据战略转化为可部署、可维护、可测试、可审计的工程系统，并统一项目任务、开发规范和交付验收。",
+      "order": "先看全平台架构，再按 Sprint 0、基础设施、数据层、应用层推进。",
+      "reading": [
+        "全平台产品与技术总体架构",
+        "官网产品与工程总蓝图",
+        "DAC Sprint 0 架构冻结与开发准备",
+        "DAC 开发实施计划与 Backlog",
+        "跨 Agent 开发任务读写协议"
+      ],
+      "principles": [
+        "架构决策记录 ADR 是技术取舍依据",
+        "任务必须有负责人、输入、输出、验收条件和证据",
+        "正常路径自动测试与结项，异常和高风险操作按权限升级"
+      ],
+      "core": [
+        "420f15aa-bd2c-81c9-9fa2-e77f0329b00e",
+        "422f15aa-bd2c-8107-ac76-d4ed9a2ba99b",
+        "420f15aa-bd2c-8144-9ec1-c1ba648650b8",
+        "420f15aa-bd2c-81a0-b604-c11ee1c412be",
+        "420f15aa-bd2c-811e-855d-d311a3cd1d70",
+        "420f15aa-bd2c-8178-a960-d404382f2e9a",
+        "420f15aa-bd2c-819b-85bd-d40ffe7322c8",
+        "424f15aa-bd2c-814c-866e-cd2711b2c337",
+        "424f15aa-bd2c-8189-9e5b-efb6d2a111c9",
+        "41ef15aa-bd2c-81a1-a3aa-fa747acadd20",
+        "420f15aa-bd2c-8118-9644-e97996615ade",
+        "424f15aa-bd2c-8102-94bf-e38385ea7f9e"
+      ],
+      "task_databases": [
+        "VATHEN 开发进度看板",
+        "VATHEN DAC 开发任务看板"
+      ],
+      "documents": [
+        {
+          "id": "420f15aa-bd2c-819b-85bd-d40ffe7322c8",
+          "title": "☁️ VATHEN DAC 云部署与成本控制 ADR V1.0",
+          "url": "https://app.notion.com/p/420f15aabd2c819b85bdd40ffe7322c8",
+          "role": "core",
+          "status": "方案建议（Proposed）",
+          "edited_at": "2026-11-22T08:52:03.976Z"
+        },
+        {
+          "id": "422f15aa-bd2c-8107-ac76-d4ed9a2ba99b",
+          "title": "🏗️ VATHEN 全平台产品与技术总体架构 V1.0",
+          "url": "https://app.notion.com/p/422f15aabd2c8107ac76d4ed9a2ba99b",
+          "role": "core",
+          "status": "总体架构基线建议稿",
+          "edited_at": "2026-11-24T03:18:50.612Z"
+        },
+        {
+          "id": "424f15aa-bd2c-8189-9e5b-efb6d2a111c9",
+          "title": "📋 VATHEN 开发进度看板｜开发人员与 Agent 回填规范 V1.2",
+          "url": "https://app.notion.com/p/424f15aabd2c81899e5befb6d2a111c9",
+          "role": "core",
+          "status": "改为「待验收」，不可直接改「已完成」",
+          "edited_at": "2026-11-26T07:41:26.908Z"
+        },
+        {
+          "id": "424f15aa-bd2c-814c-866e-cd2711b2c337",
+          "title": "🔌 VATHEN 跨 Agent 开发任务读写协议 V1.2",
+          "url": "https://app.notion.com/p/424f15aabd2c814c866ecd2711b2c337",
+          "role": "core",
+          "status": "参考资料",
+          "edited_at": "2026-11-26T07:41:25.435Z"
+        },
+        {
+          "id": "420f15aa-bd2c-811e-855d-d311a3cd1d70",
+          "title": "🗂️ VATHEN 官网开发 Backlog｜Epic、Sprint 与验收清单 V1.0",
+          "url": "https://app.notion.com/p/420f15aabd2c811e855dd311a3cd1d70",
+          "role": "core",
+          "status": "待 Sprint 0 拆分估算",
+          "edited_at": "2026-11-24T03:18:58.274Z"
+        },
+        {
+          "id": "420f15aa-bd2c-8178-a960-d404382f2e9a",
+          "title": "🧭 VATHEN DAC Sprint 0 架构决策记录｜ADR 与开发前置冻结 V1.0",
+          "url": "https://app.notion.com/p/420f15aabd2c8178a960d404382f2e9a",
+          "role": "core",
+          "status": "Sprint 0 决策草案（Proposed），尚未批准",
+          "edited_at": "2026-11-22T08:32:24.294Z"
+        },
+        {
+          "id": "420f15aa-bd2c-81c9-9fa2-e77f0329b00e",
+          "title": "🧱 VATHEN 官网完整开发手册｜产品、前端、后端与 Agent 工程规范 V1.0",
+          "url": "https://app.notion.com/p/420f15aabd2c81c99fa2e77f0329b00e",
+          "role": "core",
+          "status": "开发执行基线（技术细节中标注“建议值”的部分需在首个 Sprint 评审确认）",
+          "edited_at": "2026-11-22T05:16:33.385Z"
+        },
+        {
+          "id": "420f15aa-bd2c-81a0-b604-c11ee1c412be",
+          "title": "🛠️ VATHEN DAC 开发实施计划｜Sprint 0–5、交付标准与验收指标 V1.0",
+          "url": "https://app.notion.com/p/420f15aabd2c81a0b604c11ee1c412be",
+          "role": "core",
+          "status": "开发启动计划建议稿",
+          "edited_at": "2026-11-22T08:22:29.275Z"
+        },
+        {
+          "id": "41ef15aa-bd2c-81a1-a3aa-fa747acadd20",
+          "title": "开发项目交付清单与当前状态｜V1.1",
+          "url": "https://app.notion.com/p/41ef15aabd2c81a1a3aafa747acadd20",
+          "role": "core",
+          "status": "参考资料",
+          "edited_at": "2026-11-21T04:57:51.622Z"
+        },
+        {
+          "id": "424f15aa-bd2c-8102-94bf-e38385ea7f9e",
+          "title": "VATHEN 开发进度看板",
+          "url": "https://app.notion.com/p/424f15aabd2c810294bfe38385ea7f9e",
+          "role": "core",
+          "status": "参考资料",
+          "edited_at": null
+        },
+        {
+          "id": "420f15aa-bd2c-8118-9644-e97996615ade",
+          "title": "VATHEN DAC 开发任务看板",
+          "url": "https://app.notion.com/p/420f15aabd2c81189644e97996615ade",
+          "role": "core",
+          "status": "参考资料",
+          "edited_at": null
+        },
+        {
+          "id": "420f15aa-bd2c-8144-9ec1-c1ba648650b8",
+          "title": "VATHEN DAC Sprint 0｜架构冻结与开发准备执行包 V1.0",
+          "url": "https://app.notion.com/p/420f15aabd2c81449ec1c1ba648650b8",
+          "role": "core",
+          "status": "执行基线（部分决策已确认，部分参数待核实） 更新日期：2026-11-22 适用",
+          "edited_at": "2026-11-22T08:32:22.647Z"
+        },
+        {
+          "id": "424f15aa-bd2c-81f1-a8ce-fe7dcc10a383",
+          "title": "📊 开发进度网页版看板｜V1.0 历史快照（非正式入口）",
+          "url": "https://app.notion.com/p/424f15aabd2c81f1a8cefe7dcc10a383",
+          "role": "related",
+          "status": "历史档案",
+          "edited_at": "2026-11-26T07:44:49.407Z",
+          "database": null
+        },
+        {
+          "id": "424f15aabd2c8196862ae497cd5b126e",
+          "title": "01｜恢复 vathen-platform Phase 1 原始工程",
+          "url": "https://app.notion.com/p/424f15aabd2c8196862ae497cd5b126e",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN 开发进度看板"
+        },
+        {
+          "id": "424f15aabd2c81dbb46eed2c5528ab96",
+          "title": "02｜Phase 1 干净环境构建与启动验证",
+          "url": "https://app.notion.com/p/424f15aabd2c81dbb46eed2c5528ab96",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN 开发进度看板"
+        },
+        {
+          "id": "424f15aabd2c814cb9c4ec010bc78ca5",
+          "title": "03｜冻结全平台工程边界与 ADR",
+          "url": "https://app.notion.com/p/424f15aabd2c814cb9c4ec010bc78ca5",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN 开发进度看板"
+        },
+        {
+          "id": "424f15aabd2c81b1aad3ea45bfc503af",
+          "title": "04｜Knowledge Hub HTML 与 JSON Manifest 盘点",
+          "url": "https://app.notion.com/p/424f15aabd2c81b1aad3ea45bfc503af",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN 开发进度看板"
+        },
+        {
+          "id": "424f15aabd2c81ac849afdc899ce6533",
+          "title": "05｜建立 Knowledge Hub 构建、校验与发布流程",
+          "url": "https://app.notion.com/p/424f15aabd2c81ac849afdc899ce6533",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN 开发进度看板"
+        },
+        {
+          "id": "424f15aabd2c81d59adbc5f0abe2ab38",
+          "title": "06｜DAC 数据库迁移与最小环境初始化",
+          "url": "https://app.notion.com/p/424f15aabd2c81d59adbc5f0abe2ab38",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN 开发进度看板"
+        },
+        {
+          "id": "41ef15aa-bd2c-815b-af3f-caaff1eedf48",
+          "title": "07｜开发与技术架构 Engineering",
+          "url": "https://app.notion.com/p/41ef15aabd2c815baf3fcaaff1eedf48",
+          "role": "related",
+          "status": "总体架构基线建议稿",
+          "edited_at": "2026-11-26T07:42:59.815Z",
+          "database": null
+        },
+        {
+          "id": "424f15aabd2c81eb9fc9d1ccea671635",
+          "title": "07｜DAC 首条数据源 Adapter 接入",
+          "url": "https://app.notion.com/p/424f15aabd2c81eb9fc9d1ccea671635",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN 开发进度看板"
+        },
+        {
+          "id": "424f15aabd2c81ec9655ea547f4b4752",
+          "title": "08｜DAC 数据处理端到端闭环",
+          "url": "https://app.notion.com/p/424f15aabd2c81ec9655ea547f4b4752",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN 开发进度看板"
+        },
+        {
+          "id": "424f15aabd2c81a98820fbc6b269b78c",
+          "title": "09｜情报中心应用 PRD 与监测规则规格",
+          "url": "https://app.notion.com/p/424f15aabd2c81a98820fbc6b269b78c",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN 开发进度看板"
+        },
+        {
+          "id": "424f15aabd2c81649421d41f78a025e8",
+          "title": "10｜情报中心看板与监测工作流实现",
+          "url": "https://app.notion.com/p/424f15aabd2c81649421d41f78a025e8",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN 开发进度看板"
+        },
+        {
+          "id": "424f15aabd2c813994c4f873b71885cb",
+          "title": "11｜官网 V2.0 工程规格与页面验收矩阵",
+          "url": "https://app.notion.com/p/424f15aabd2c813994c4f873b71885cb",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN 开发进度看板"
+        },
+        {
+          "id": "424f15aabd2c812aa307e703e58cc237",
+          "title": "12｜官网前后端核心页面开发与验收",
+          "url": "https://app.notion.com/p/424f15aabd2c812aa307e703e58cc237",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN 开发进度看板"
+        },
+        {
+          "id": "424f15aabd2c81d1bf66c72354e0548a",
+          "title": "13｜Research Studio 与 DAC 证据契约",
+          "url": "https://app.notion.com/p/424f15aabd2c81d1bf66c72354e0548a",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN 开发进度看板"
+        },
+        {
+          "id": "424f15aabd2c810696aee5882e3e65fb",
+          "title": "14｜Agent Runtime 注册、权限沙箱与评测",
+          "url": "https://app.notion.com/p/424f15aabd2c810696aee5882e3e65fb",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN 开发进度看板"
+        },
+        {
+          "id": "424f15aabd2c81f0956ef6fc76eb7bda",
+          "title": "15｜身份、RBAC、会员与支付状态机",
+          "url": "https://app.notion.com/p/424f15aabd2c81f0956ef6fc76eb7bda",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN 开发进度看板"
+        },
+        {
+          "id": "424f15aabd2c81629e32d02f20ff6419",
+          "title": "16｜CI/CD、监控、备份恢复与安全手册",
+          "url": "https://app.notion.com/p/424f15aabd2c81629e32d02f20ff6419",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN 开发进度看板"
+        },
+        {
+          "id": "424f15aabd2c811c80d9f42a1fe14662",
+          "title": "17｜全平台验收与版本发布清单",
+          "url": "https://app.notion.com/p/424f15aabd2c811c80d9f42a1fe14662",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN 开发进度看板"
+        },
+        {
+          "id": "424f15aabd2c81c68827ec9d129ae593",
+          "title": "18｜VATHEN Task Bridge：统一 API / MCP 与 Agent 权限审计",
+          "url": "https://app.notion.com/p/424f15aabd2c81c68827ec9d129ae593",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN 开发进度看板"
+        },
+        {
+          "id": "424f15aabd2c81fcae01d1e449e29971",
+          "title": "19｜开发进度模块并入现有 Knowledge Hub 网页门户",
+          "url": "https://app.notion.com/p/424f15aabd2c81fcae01d1e449e29971",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN 开发进度看板"
+        },
+        {
+          "id": "424f15aabd2c8107a53fcd9c35860780",
+          "title": "20｜多 Agent 自主执行、自动验收与自动结项端到端验证",
+          "url": "https://app.notion.com/p/424f15aabd2c8107a53fcd9c35860780",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN 开发进度看板"
+        },
+        {
+          "id": "420f15aabd2c81fbb657f1e472ecc647",
+          "title": "部署 PostgreSQL 与对象存储 Raw Vault",
+          "url": "https://app.notion.com/p/420f15aabd2c81fbb657f1e472ecc647",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c813db807fef4bd14018e",
+          "title": "打通首个来源端到端链路",
+          "url": "https://app.notion.com/p/420f15aabd2c813db807fef4bd14018e",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c81fbab92d5bdd02ad69c",
+          "title": "冻结 DAC 首期部署拓扑、备份与恢复目标",
+          "url": "https://app.notion.com/p/420f15aabd2c81fbab92d5bdd02ad69c",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c8156b247d26ba714faa1",
+          "title": "冻结 DAC 私有化访问与网络安全 ADR",
+          "url": "https://app.notion.com/p/420f15aabd2c8156b247d26ba714faa1",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c8140a197c99e855bbf64",
+          "title": "冻结 ERD、字段字典与状态机",
+          "url": "https://app.notion.com/p/420f15aabd2c8140a197c99e855bbf64",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c81d483c6dabacf7df23c",
+          "title": "冻结 Linux / Docker 部署基线",
+          "url": "https://app.notion.com/p/420f15aabd2c81d483c6dabacf7df23c",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c81ce9555d281d3efc512",
+          "title": "冻结多模型与 Agent 总体架构",
+          "url": "https://app.notion.com/p/420f15aabd2c81ce9555d281d3efc512",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c8158b237f4e48fe0df90",
+          "title": "官网设计与内容模型并行准备",
+          "url": "https://app.notion.com/p/420f15aabd2c8158b237f4e48fe0df90",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c81ca9f87ce9a49aba442",
+          "title": "官网一期建设与数据中心集成",
+          "url": "https://app.notion.com/p/420f15aabd2c81ca9f87ce9a49aba442",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c81f092d2e4c19e4e12df",
+          "title": "建立 Agent 运行监控、成本与人工审批",
+          "url": "https://app.notion.com/p/420f15aabd2c81f092d2e4c19e4e12df",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c81a0b75fdcb2f4e8af8c",
+          "title": "建立 Git 仓库、CI 与开发环境",
+          "url": "https://app.notion.com/p/420f15aabd2c81a0b75fdcb2f4e8af8c",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c81e39e39e7a8eb5cad38",
+          "title": "建立 Linux 云端私有运行环境",
+          "url": "https://app.notion.com/p/420f15aabd2c81e39e39e7a8eb5cad38",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c81c89d70cb2ee06d15a4",
+          "title": "建立 Sprint 0 架构冻结与开发准备执行包",
+          "url": "https://app.notion.com/p/420f15aabd2c81c89d70cb2ee06d15a4",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c817287d8c0d604727a2f",
+          "title": "建设 DAC → 官网受控发布接口",
+          "url": "https://app.notion.com/p/420f15aabd2c817287d8c0d604727a2f",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c812ebccbf79ef079f6bc",
+          "title": "接入 P0 来源适配器",
+          "url": "https://app.notion.com/p/420f15aabd2c812ebccbf79ef079f6bc",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c81bd84d3f3b1d37f367b",
+          "title": "开展全球化与多区域部署预研",
+          "url": "https://app.notion.com/p/420f15aabd2c81bd84d3f3b1d37f367b",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c812fae23cc6e26e1d679",
+          "title": "评估 Muse 等外部 Agent 的受控接入方式",
+          "url": "https://app.notion.com/p/420f15aabd2c812fae23cc6e26e1d679",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c81b08777e62deb2bbdd4",
+          "title": "评审并冻结核心 ERD V1.1 扩展模型",
+          "url": "https://app.notion.com/p/420f15aabd2c81b08777e62deb2bbdd4",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c812ab03ee5b90b1daf64",
+          "title": "确定数据源许可与 P0 接入矩阵",
+          "url": "https://app.notion.com/p/420f15aabd2c812ab03ee5b90b1daf64",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c81cbb4d7e531d697a07c",
+          "title": "确认企业云账号与现有资源清单",
+          "url": "https://app.notion.com/p/420f15aabd2c81cbb4d7e531d697a07c",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c81aba1ffd985413f8c10",
+          "title": "确认数据分类、驻留与跨境边界",
+          "url": "https://app.notion.com/p/420f15aabd2c81aba1ffd985413f8c10",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c81d29be1de4d4bdc3626",
+          "title": "实现 Adapter SDK 与任务执行框架",
+          "url": "https://app.notion.com/p/420f15aabd2c81d29be1de4d4bdc3626",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c811dacede6263798ea0a",
+          "title": "实现 Agent Runtime 与工具权限沙箱",
+          "url": "https://app.notion.com/p/420f15aabd2c811dacede6263798ea0a",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c815a8ee9f7a9c799c1b7",
+          "title": "实现 DAC Core 数据模型与迁移",
+          "url": "https://app.notion.com/p/420f15aabd2c815a8ee9f7a9c799c1b7",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c8174af83ee482ca4edc8",
+          "title": "实现采集/分析/事实核查 Agent MVP",
+          "url": "https://app.notion.com/p/420f15aabd2c8174af83ee482ca4edc8",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c81108ebbd40c782f038a",
+          "title": "实现内部 AI 模型网关与路由",
+          "url": "https://app.notion.com/p/420f15aabd2c81108ebbd40c782f038a",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c81d2bcbbee227c5b9177",
+          "title": "实现内部管理 API 与基础管理后台",
+          "url": "https://app.notion.com/p/420f15aabd2c81d2bcbbee227c5b9177",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c81f2b1ebccce053670fa",
+          "title": "实现实体消歧、去重与质量中心",
+          "url": "https://app.notion.com/p/420f15aabd2c81f2b1ebccce053670fa",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c81ef9dd6dc585a92c1a4",
+          "title": "实现知识检索与内部研究工作台 MVP",
+          "url": "https://app.notion.com/p/420f15aabd2c81ef9dd6dc585a92c1a4",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c8136a13ee48f7b55e437",
+          "title": "完成备份、恢复演练与安全验收",
+          "url": "https://app.notion.com/p/420f15aabd2c8136a13ee48f7b55e437",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        },
+        {
+          "id": "420f15aabd2c81709b30c659d1413ba9",
+          "title": "完成腾讯云地域与云服务报价对比",
+          "url": "https://app.notion.com/p/420f15aabd2c81709b30c659d1413ba9",
+          "role": "task",
+          "status": "任务记录",
+          "edited_at": null,
+          "database": "VATHEN DAC 开发任务看板"
+        }
+      ],
+      "count": 65,
+      "core_count": 12
+    },
+    {
+      "id": "agents",
+      "number": "08",
+      "title": "Agent 与自动化",
+      "en": "AGENTS & AUTOMATION",
+      "purpose": "定义 Agent 的角色、知识绑定、工具权限、协作协议、运行监控和自主执行边界，让自动化流程可靠、可复核而非只依赖 Prompt。",
+      "order": "先读组织与权限原则，再读 Agent 角色、知识绑定、执行流程和评测标准。",
+      "reading": [
+        "长期自主智能体任务总纲",
+        "写作主笔 Agent 角色与执行 Prompt",
+        "研究内容生产工作流与 Agent 职责矩阵",
+        "跨 Agent 开发任务读写协议"
+      ],
+      "principles": [
+        "Agent 必须声明职责边界、工具权限与输出契约",
+        "完成状态必须由独立验收证据支持",
+        "知识加载失败、权限不足或证据不完整时应停止或降级"
+      ],
+      "core": [
+        "41ef15aa-bd2c-81e0-9c14-e41df6c8e7bc",
+        "422f15aa-bd2c-8103-947f-d01b5e3215a7",
+        "41ef15aa-bd2c-813a-8580-de87d570d2bf",
+        "41ef15aa-bd2c-817c-94c4-fb760e40d60c"
+      ],
+      "documents": [
+        {
+          "id": "422f15aa-bd2c-8103-947f-d01b5e3215a7",
+          "title": "✍️ 先知写作主笔 Agent｜角色定义、知识绑定与执行 Prompt V1.0",
+          "url": "https://app.notion.com/p/422f15aabd2c8103947fd01b5e3215a7",
+          "role": "core",
+          "status": "执行基线（角色规范）",
+          "edited_at": "2026-11-24T02:56:13.424Z"
+        },
+        {
+          "id": "41ef15aa-bd2c-817c-94c4-fb760e40d60c",
+          "title": "🧭 新员工与 Agent 入库指南｜必读",
+          "url": "https://app.notion.com/p/41ef15aabd2c817c94c4fb760e40d60c",
+          "role": "core",
+          "status": "参考资料",
+          "edited_at": "2026-11-24T02:57:18.751Z"
+        },
+        {
+          "id": "41ef15aa-bd2c-813a-8580-de87d570d2bf",
+          "title": "研究内容生产流水线｜产品与开发规范",
+          "url": "https://app.notion.com/p/41ef15aabd2c813a8580de87d570d2bf",
+          "role": "core",
+          "status": "参考资料",
+          "edited_at": "2026-11-20T23:08:45.268Z"
+        },
+        {
+          "id": "41ef15aa-bd2c-81e0-9c14-e41df6c8e7bc",
+          "title": "长期自主智能体任务总纲｜V1.0",
+          "url": "https://app.notion.com/p/41ef15aabd2c81e09c14e41df6c8e7bc",
+          "role": "core",
+          "status": "参考资料",
+          "edited_at": "2026-11-20T23:09:08.453Z"
+        },
+        {
+          "id": "41ef15aa-bd2c-8130-b312-df08180aee33",
+          "title": "08｜Agent 与自动化 Agents",
+          "url": "https://app.notion.com/p/41ef15aabd2c8130b312df08180aee33",
+          "role": "related",
+          "status": "参考资料",
+          "edited_at": "2026-11-24T02:56:30.315Z",
+          "database": null
+        }
+      ],
+      "count": 5,
+      "core_count": 4
+    },
+    {
+      "id": "governance",
+      "number": "09",
+      "title": "运营、治理与路线图",
+      "en": "OPERATIONS & GOVERNANCE",
+      "purpose": "集中管理版本、知识生命周期、项目待办、资料缺口、运营节奏和决策记录，确保知识体系长期可维护。",
+      "order": "用于日常管理、版本审计、知识更新和跨模块依赖检查。",
+      "reading": [
+        "资料库总索引与版本治理",
+        "项目待办清单",
+        "跨平台资料与工程文档缺口审计",
+        "近期文章与设计资产归档核查"
+      ],
+      "principles": [
+        "正式基线、提案、待验证、历史归档使用不同状态",
+        "同一主题只保留一个当前权威入口，历史版本可追溯",
+        "任何重要变更记录版本、原因、影响范围和迁移方式"
+      ],
+      "core": [
+        "41ef15aa-bd2c-8197-b0b7-f231d6a0f7a2",
+        "41ef15aa-bd2c-817b-b36d-c212e1bf5359",
+        "424f15aa-bd2c-812c-9d27-dfaf21e280dc",
+        "41ef15aa-bd2c-81a4-e2ea-3e528c6df2",
+        "41ef15aa-bd2c-8174-b396-fc796c558044",
+        "41ff15aa-bd2c-819d-be2c-c8ad4d836a4d",
+        "41ff15aa-bd2c-817d-ad6f-db813e8dd14c",
+        "41ef15aa-bd2c-8144-9df6-c78b59537957",
+        "420f15aa-bd2c-8195-930b-e3ca4025cdcd"
+      ],
+      "documents": [
+        {
+          "id": "41ef15aa-bd2c-817b-b36d-c212e1bf5359",
+          "title": "☑️ 项目待办清单｜尚未落实的文档与建设任务 V1.0",
+          "url": "https://app.notion.com/p/41ef15aabd2c817bb36dc212e1bf5359",
+          "role": "core",
+          "status": "参考资料",
+          "edited_at": "2026-11-26T05:58:23.615Z"
+        },
+        {
+          "id": "41ef15aa-bd2c-8144-9df6-c78b59537957",
+          "title": "📚 先知资料库",
+          "url": "https://app.notion.com/p/41ef15aabd2c81449df6c78b59537957",
+          "role": "core",
+          "status": "参考资料",
+          "edited_at": "2026-11-26T07:33:31.596Z"
+        },
+        {
+          "id": "41ff15aa-bd2c-819d-be2c-c8ad4d836a4d",
+          "title": "🧭 项目全对话归档复核与补充沉淀｜V1.2",
+          "url": "https://app.notion.com/p/41ff15aabd2c819dbe2cc8ad4d836a4d",
+          "role": "core",
+          "status": "参考资料",
+          "edited_at": "2026-11-21T04:52:28.523Z"
+        },
+        {
+          "id": "41ff15aa-bd2c-817d-ad6f-db813e8dd14c",
+          "title": "🧭 项目全对话归档复核与补充沉淀｜V1.2",
+          "url": "https://app.notion.com/p/41ff15aabd2c817dad6fdb813e8dd14c",
+          "role": "core",
+          "status": "参考资料",
+          "edited_at": "2026-11-21T04:52:50.929Z"
+        },
+        {
+          "id": "424f15aa-bd2c-812c-9d27-dfaf21e280dc",
+          "title": "🧭 VATHEN 跨平台资料与工程文档缺口审计｜V1.1",
+          "url": "https://app.notion.com/p/424f15aabd2c812c9d27dfaf21e280dc",
+          "role": "core",
+          "status": "审计基线 / 待工程复测与逐项关闭",
+          "edited_at": "2026-11-26T07:42:52.013Z"
+        },
+        {
+          "id": "420f15aa-bd2c-8195-930b-e3ca4025cdcd",
+          "title": "🧭 VATHEN Agent Knowledge Hub｜写作主笔知识入口 V2.3.1",
+          "url": "https://app.notion.com/p/420f15aabd2c8195930be3ca4025cdcd",
+          "role": "core",
+          "status": "参考资料",
+          "edited_at": "2026-11-27T12:36:38.544Z"
+        },
+        {
+          "id": "41ef15aa-bd2c-8174-b396-fc796c558044",
+          "title": "本地项目文件清点与附件归档台账｜V1.2",
+          "url": "https://app.notion.com/p/41ef15aabd2c8174b396fc796c558044",
+          "role": "core",
+          "status": "参考资料",
+          "edited_at": "2026-11-21T05:01:16.535Z"
+        },
+        {
+          "id": "41ef15aa-bd2c-8197-b0b7-f231d6a0f7a2",
+          "title": "资料库总索引与版本治理｜V1.7",
+          "url": "https://app.notion.com/p/41ef15aabd2c8197b0b7f231d6a0f7a2",
+          "role": "core",
+          "status": "参考资料",
+          "edited_at": "2026-11-24T03:08:50.507Z"
+        }
+      ],
+      "count": 8,
+      "core_count": 8
+    },
+    {
+      "id": "archive",
+      "number": "90",
+      "title": "原始资料与历史档案",
+      "en": "SOURCE ARCHIVE",
+      "purpose": "保存 Notion 原始页面、旧版本、历史看板、讨论归档和参考资料。此处用于追溯，不作为日常阅读的首选入口。",
+      "order": "仅在需要核对原文、追溯版本或查找未纳入正式规范的材料时使用。",
+      "reading": [
+        "先从前述正式模块阅读，再按需查原文"
+      ],
+      "principles": [
+        "原始页面不自动等于当前有效规范",
+        "历史方案不得覆盖当前批准基线",
+        "重复、过时或冲突文档需要标注状态"
+      ],
+      "core": [],
+      "documents": [
+        {
+          "id": "41ef15aa-bd2c-816d-9cab-cd875cd92602",
+          "title": "10｜决策、路线图与变更记录 Decisions",
+          "url": "https://app.notion.com/p/41ef15aabd2c816d9cabcd875cd92602",
+          "role": "related",
+          "status": "参考资料",
+          "edited_at": "2026-11-20T23:27:48.963Z",
+          "database": null
+        }
+      ],
+      "count": 1,
+      "core_count": 0
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "schema_version": "1.0.0",
-  "name": "VATHEN Knowledge Base Agent Index",
+  "schema_version": "2.0.0",
+  "name": "VATHEN Structured Knowledge System Agent Index",
   "language": "zh-CN",
   "generated_at": "2026-11-28",
   "source": "Notion",
@@ -9,13 +9,13 @@
   "canonical_entry": "https://dls2049.github.io/vathen-knowledge-websites/",
   "source_of_truth": "Notion",
   "sync_mode": "static_snapshot",
-  "sync_note": "This website contains a versioned static snapshot of 59 discoverable Notion pages and 51 rows from two Notion task databases. It does not currently synchronize live with Notion.",
+  "sync_note": "Versioned static snapshot: 59 related Notion pages and 51 rows from two linked task databases. This is curated into a structured architecture but is not live-synchronized with Notion.",
   "reading_protocol": [
-    "Read the root library document first.",
-    "Use the category mapping below to select relevant knowledge.",
-    "Prefer the newest confirmed or execution-baseline document when versions conflict.",
-    "Do not treat discussion proposals or pending validation as approved decisions.",
-    "Preserve each document's Notion URL and edited_at metadata when citing."
+    "Load data/knowledge-architecture.json before retrieving page content.",
+    "Choose the relevant section and follow its reading sequence.",
+    "Read role=core documents first; use role=related for supporting detail; role=task for execution state; role=archive for historical traceability.",
+    "Prefer the latest confirmed or execution-baseline document when versions conflict; if status is proposed or pending review, do not treat it as approved.",
+    "Preserve the Notion source URL and document ID when citing. Never infer approval from recency alone."
   ],
   "categories": [
     {
@@ -104,5 +104,25 @@
       "data_source_url": "collection://420f15aa-bd2c-81b7-aa54-000bf5b39016",
       "records": 31
     }
-  ]
+  ],
+  "architecture_file": "knowledge-architecture.json",
+  "organization_principles": [
+    "The architecture is the primary navigation and retrieval taxonomy; raw Notion page order is not authoritative.",
+    "Read strategy before product decisions; editorial method before content production; canonical data model before source ingestion; architecture and ADR before implementation; permission model before agent automation.",
+    "Prefer core documents over related references; preserve status, version, source URL, and evidence.",
+    "Proposals, pending validation, and historical records must not be represented as approved decisions.",
+    "Task database rows are execution records, not canonical policy documents."
+  ],
+  "retrieval_rules": {
+    "strategy": "Strategic direction, mission, target audience, competitive positioning and business assumptions.",
+    "brand": "Brand narrative, identity, visual standards and design assets.",
+    "business": "Paid audience, value proposition, membership, pricing and growth economics.",
+    "product": "Product portfolio, website blueprint, PRDs, user journeys and MVP scope.",
+    "research": "Research methods, evidence standards, editorial voice, writing pipeline and quality gates.",
+    "data": "DAC, sources, entity intelligence, canonical data models, evidence and dashboards.",
+    "engineering": "Architecture decisions, delivery plans, implementation standards, CI/CD and project tasks.",
+    "agents": "Agent roles, prompts, knowledge binding, tool permissions, autonomy and evaluation.",
+    "governance": "Versioning, source-of-truth, audits, missing materials, decision records and roadmap.",
+    "archive": "Original Notion pages, historical snapshots and traceability-only records."
+  }
 }
